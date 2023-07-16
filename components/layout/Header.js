@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from './HomepageHeader.module.css'
+import styles from './Header.module.css'
 
-const HomepageHeader = () => {
+const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
 
   const toggleNav = () => {
@@ -16,7 +16,7 @@ const HomepageHeader = () => {
     >
       <div className={`container ${styles.container}`}>
         <Link className="navbar-brand" href="/">
-          <Image src="/images/logo_white.png" alt="Logo" width={200} height={29} />
+          <Image src="/images/logo.png" alt="Logo" width={200} height={29} />
         </Link>
         <button
           className="navbar-toggler"
@@ -76,4 +76,4 @@ const HomepageHeader = () => {
   )
 }
 
-export default HomepageHeader
+export default Header

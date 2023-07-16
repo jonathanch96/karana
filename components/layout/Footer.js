@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import styles from './HomepageFooter.module.css'
+import styles from './Footer.module.css'
 import Image from 'next/image'
-const HomepageFooter = () => {
+const Footer = () => {
   return (
     <footer className={`py-4 ${styles.footer}`}>
       <div className={`${styles['img-container']}`}>
@@ -77,4 +77,4 @@ const HomepageFooter = () => {
   )
 }
 
-export default HomepageFooter
+export default Footer
