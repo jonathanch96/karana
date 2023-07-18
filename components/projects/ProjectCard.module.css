@@ -1,0 +1,29 @@
+.container {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  width: calc(25% - 20px);
+  color: #000;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
