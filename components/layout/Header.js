@@ -11,9 +11,7 @@ const Header = () => {
   }
 
   return (
-    <nav
-      className={`navbar navbar-expand-lg ${styles['navbar']}`}
-    >
+    <nav className={`navbar navbar-expand-lg ${styles['navbar']}`}>
       <div className={`container ${styles.container}`}>
         <Link className="navbar-brand" href="/">
           <Image src="/images/logo.png" alt="Logo" width={200} height={29} />
@@ -39,16 +37,16 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/project">
+              <Link className={`${styles['link']}`} href="/projects">
                 <span className={`nav-link ${styles['nav-link']}`}>
                   Project
                 </span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/journal">
-                <span className={`nav-link ${styles['nav-link']}`}>
-                  Journal
+              <Link className={`${styles['link']}`} href="/services">
+                <span className={`nav-link ${styles['services']}`}>
+                  3D Modelling
                 </span>
               </Link>
             </li>
@@ -65,8 +63,10 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/search">
-                <span className={`nav-link ${styles['nav-link']}`}>Search</span>
+              <Link className={`${styles['link']}`} href="/book-a-call">
+                <span className={`nav-link ${styles['nav-link']}`}>
+                  Book a Call
+                </span>
               </Link>
             </li>
           </ul>

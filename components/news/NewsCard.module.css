@@ -1,0 +1,26 @@
+.news-card__content {
+  color: #000;
+  font-family: Space Grotesk;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+}
+.news-card__subtitle {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.news-card__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.news-card:hover{
+  cursor: pointer;
+}
+
+.image{
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "next": 2,
+      "prev": 5,
+      "title": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Lorem Ipsum, 18 Agustus 2023",
+      "image": "/images/news/",
+      "image_2": "/images/news/",
+      "description_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa ligula, commodo a pulvinar a, vulputate at odio. Quisque eget scelerisque augue. Donec arcu ipsum, tristique et viverra at, tincidunt ac eros. Nulla sollicitudin enim eu nibh facilisis blandit. Donec ultrices est vel interdum venenatis. Mauris lacus quam, dictum sit amet nisl vitae, volutpat ornare tortor. Vivamus velit nulla, vehicula sed arcu in, mollis suscipit diam. Mauris et suscipit nisl. Phasellus massa felis, ultricies nec pretium ornare, tincidunt eu odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque semper, leo ac vulputate aliquet, mauris nisi hendrerit sapien, nec tristique velit nibh nec turpis. Duis porta mi id diam bibendum gravida. Etiam et ultrices leo.<br> Nunc aliquet laoreet odio ac tincidunt. Integer ac ante mattis, feugiat enim sed, tincidunt augue. In felis erat, hendrerit eu ullamcorper at, mollis quis ex. In tellus nisl, tincidunt ut magna vitae, porta congue enim. Cras sollicitudin sem augue, eu maximus ex suscipit sed. In eget mauris nulla. In vestibulum pretium dolor vitae imperdiet. Mauris commodo fringilla tempus. Aliquam erat volutpat. Ut feugiat vel neque in lacinia. Nulla nunc mi, dignissim sit amet mauris et, porttitor accumsan mauris. Aliquam eget ex a ex elementum eleifend et in tellus.",
+      "description_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa ligula, commodo a pulvinar a, vulputate at odio. Quisque eget scelerisque augue. Donec arcu ipsum, tristique et viverra at, tincidunt ac eros. Nulla sollicitudin enim eu nibh facilisis blandit. Donec ultrices est vel interdum venenatis. Mauris lacus quam, dictum sit amet nisl vitae, volutpat ornare tortor. Vivamus velit nulla, vehicula sed arcu in, mollis suscipit diam. Mauris et suscipit nisl. Phasellus massa felis, ultricies nec pretium ornare, tincidunt eu odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque semper, leo ac vulputate aliquet, mauris nisi hendrerit sapien, nec tristique velit nibh nec turpis. Duis porta mi id diam bibendum gravida. Etiam et ultrices leo."
+    }
+  ]
+}

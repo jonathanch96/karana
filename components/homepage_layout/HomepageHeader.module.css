@@ -1,6 +1,6 @@
 .navbar-nav {
   margin-left: auto;
-  gap: 63px;
+  gap: 42px;
 }
 .navbar {
   padding: 40px 50px;
@@ -36,12 +36,12 @@
 }
 @media (max-width: 1280px) {
   .navbar-nav {
-    gap: 33px;
+    gap: 24px;
   }
 }
 
 @media (max-width: 1024px) {
   .navbar-nav {
-    gap: 23px;
+    gap: 12px;
   }
 }

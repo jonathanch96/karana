@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "title": "Bening Cibubur",
+      "name": "Bening'S Clinic",
+      "client": "Bening Clinic",
+      "location": "Bandung, Indonesia",
+      "year": "2022",
+      "team": ["Datu Aria", "Kandhabuana", "Iman Diman", "Gissa Nurhalisa"],
+      "category": [
+        "Architecture",
+        "Interior Design",
+        "Commercial",
+        "Beauty Clinic",
+        "Skincare"
+      ],
+      "images": []
+    }
+  ]
+}
