@@ -1,16 +1,16 @@
 import Layout from '@/components/layout/Layout'
-import NewsDetail from '@/components/news/NewsDetail'
+import ProjectDetail from '@/components/projects/ProjectDetail'
 import { useRouter } from 'next/router'
 
-const NewsDetailPage = () => {
+const ProjectDetailPage = () => {
   const router = useRouter()
   const { id } = router.query
 
   return (
     <Layout>
-      <NewsDetail id={id}></NewsDetail>
+      <ProjectDetail id={id}></ProjectDetail>
     </Layout>
   )
 }
 
-export default NewsDetailPage
+export default ProjectDetailPage

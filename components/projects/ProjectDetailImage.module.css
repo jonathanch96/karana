@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.image-container {
+  display: flex;
+  gap: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.image {
+  width: calc(33.33% - 6.66px);
+}
+
+.image-full {
+  width: 100%;
+}

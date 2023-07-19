@@ -45,7 +45,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <Link className={`${styles['link']}`} href="/services">
-                <span className={`nav-link ${styles['services']}`}>
+                <span className={`nav-link ${styles['nav-link']}`}>
                   3D Modelling
                 </span>
               </Link>

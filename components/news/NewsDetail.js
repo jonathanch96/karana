@@ -4,7 +4,7 @@ import styles from './NewsDetail.module.css'
 
 const NewsDetail = (props) => {
   return (
-    <Layout>
+    <>
       <div className={styles['container']}>
         <div className={styles['date']}>Lorem Ipsum, 18 Agustus 2023</div>
         <div className={styles['title']}>
@@ -103,7 +103,7 @@ const NewsDetail = (props) => {
           </div>
         </div>
       </div>
-    </Layout>
+    </>
   )
 }
 
