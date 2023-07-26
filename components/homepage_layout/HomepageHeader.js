@@ -10,10 +10,16 @@ const HomepageHeader = () => {
     setIsNavOpen(!isNavOpen)
   }
 
+  const router = useRouter()
+
+  const isActive = (href) => {
+    return router.pathname.startsWith(href) ? styles.active : ''
+  }
+
   return (
     <nav className={`navbar navbar-expand-lg ${styles['navbar']}`}>
       <div className={`container ${styles.container}`}>
-        <Link className="navbar-brand" href="/">
+        <Link className={`navbar-brand ${styles['navbar-brand']}`} href="/">
           <Image
             src="/images/logo_white.png"
             alt="Logo"
@@ -37,12 +43,15 @@ const HomepageHeader = () => {
         >
           <ul className={`navbar-nav ${styles['navbar-nav']}`}>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/">
+              <Link className={`${styles['link']} ${isActive('/')}`} href="/">
                 <span className={`nav-link ${styles['nav-link']}`}>Home</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/projects">
+              <Link
+                className={`${styles['link']} ${isActive('/projects')}`}
+                href="/projects"
+              >
                 <span className={`nav-link ${styles['nav-link']}`}>
                   Project
                 </span>

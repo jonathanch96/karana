@@ -9,7 +9,15 @@ function MyApp({ Component, pageProps }) {
     })
     import('bootstrap/dist/js/bootstrap.bundle.min.js')
   }, [])
-  return <Component {...pageProps} />
+  return (
+    <>
+      <link
+        href="https://fonts.googleapis.com/css?family=Space+Grotesk"
+        rel="stylesheet"
+      />
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 export default MyApp

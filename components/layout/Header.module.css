@@ -1,5 +1,4 @@
 .navbar-nav {
-  margin-left: auto;
   gap: 42px;
 }
 .navbar {
@@ -16,6 +15,19 @@
   padding: 10px 10px;
   color: #000;
   text-transform: uppercase;
+}
+.active {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-decoration: underline !important;
+}
+.navbar-brand {
+  min-width: 33.33%;
 }
 
 .link {

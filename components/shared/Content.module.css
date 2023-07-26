@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  padding: 100px 50px 125px;
+}
+.title-container {
+  min-width: 33.33%;
+}
+.title {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

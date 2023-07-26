@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Header.module.css'
+import { useRouter } from 'next/router'
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -10,10 +11,16 @@ const Header = () => {
     setIsNavOpen(!isNavOpen)
   }
 
+  const router = useRouter()
+
+  const isActive = (href) => {
+    return router.pathname.startsWith(href) ? styles.active : ''
+  }
+
   return (
     <nav className={`navbar navbar-expand-lg ${styles['navbar']}`}>
       <div className={`container ${styles.container}`}>
-        <Link className="navbar-brand" href="/">
+        <Link className={`navbar-brand ${styles['navbar-brand']}`} href="/">
           <Image src="/images/logo.png" alt="Logo" width={200} height={29} />
         </Link>
         <button
@@ -37,33 +44,48 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/projects">
+              <Link
+                className={`${styles['link']} ${isActive('/projects')}`}
+                href="/projects"
+              >
                 <span className={`nav-link ${styles['nav-link']}`}>
                   Project
                 </span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/services">
+              <Link
+                className={`${styles['link']} ${isActive('/services')}`}
+                href="/services"
+              >
                 <span className={`nav-link ${styles['nav-link']}`}>
                   3D Modelling
                 </span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/about">
+              <Link
+                className={`${styles['link']} ${isActive('/about')}`}
+                href="/about"
+              >
                 <span className={`nav-link ${styles['nav-link']}`}>About</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/contact">
+              <Link
+                className={`${styles['link']} ${isActive('/contact')}`}
+                href="/contact"
+              >
                 <span className={`nav-link ${styles['nav-link']}`}>
                   Contact
                 </span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`${styles['link']}`} href="/book-a-call">
+              <Link
+                className={`${styles['link']} ${isActive('/book-a-call')}`}
+                href="/book-a-call"
+              >
                 <span className={`nav-link ${styles['nav-link']}`}>
                   Book a Call
                 </span>
