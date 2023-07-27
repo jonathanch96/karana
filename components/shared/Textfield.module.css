@@ -8,5 +8,30 @@
   line-height: normal;
 }
 .title {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
   font-weight: 700;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+  font-family: Space Grotesk;
+}
+.link:hover{
+  text-decoration: underline;
 }

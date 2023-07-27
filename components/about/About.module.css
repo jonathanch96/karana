@@ -25,6 +25,7 @@
   width: 100%;
   height: auto;
   padding: 0 130px;
+  z-index: 5;
 }
 .team-container {
   display: flex;
@@ -34,8 +35,14 @@
   column-gap: 80px;
 }
 .team-item {
-  width: calc(33.33% - 53.33px);
+  width: calc(28% - 53.33px);
 }
 .container {
   padding: 0 70px;
+}
+.image-background {
+  top: 450px;
+  position: absolute;
+  height: auto;
+  width: 100%;
 }

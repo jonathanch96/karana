@@ -11,7 +11,7 @@
   width: 100%;
 }
 .image {
-  width: calc(33.33% - 6.66px);
+  width: calc(28% - 6.66px);
 }
 
 .image-full {

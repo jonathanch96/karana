@@ -55,11 +55,21 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <Link
+                className={`${styles['link']} ${isActive('/3d-modelling')}`}
+                href="/3d-modelling"
+              >
+                <span className={`nav-link ${styles['nav-link']}`}>
+                  3D Modelling
+                </span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
                 className={`${styles['link']} ${isActive('/services')}`}
                 href="/services"
               >
                 <span className={`nav-link ${styles['nav-link']}`}>
-                  3D Modelling
+                  Services
                 </span>
               </Link>
             </li>

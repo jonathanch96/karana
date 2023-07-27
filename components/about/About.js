@@ -2,10 +2,18 @@ import Image from 'next/image'
 import Content from '../shared/Content'
 import styles from './About.module.css'
 import Textfield from '../shared/Textfield'
+import FloatingBackground from '../shared/FloatingBackground'
 
 const About = () => {
   return (
-    <>
+    <div className="container-background">
+      <Image
+        className={styles['image-background']}
+        width={1440}
+        height={1147}
+        src="/images/background_about.png"
+      />
+
       <Content title="">
         <div className={styles['description-1']}>
           Karana adalah sebuah perusahaan dibidang Arstitektur, Konstruksi
@@ -89,7 +97,7 @@ const About = () => {
           </div>
         </Content>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -31,7 +31,7 @@
   text-decoration: underline !important;
 }
 .navbar-brand {
-  min-width: 33.33%;
+  min-width: 28%;
 }
 
 .link {
@@ -49,7 +49,7 @@
   margin: 0;
 }
 .navbar-brand {
-  width: 33.33%;
+  width: 28%;
 }
 @media (max-width: 1280px) {
   .navbar-nav {

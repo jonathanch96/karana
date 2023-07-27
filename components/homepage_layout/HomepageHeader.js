@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './HomepageHeader.module.css'
+import { useRouter } from 'next/router'
 
 const HomepageHeader = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -61,6 +62,13 @@ const HomepageHeader = () => {
               <Link className={`${styles['link']}`} href="/3d-modelling">
                 <span className={`nav-link ${styles['nav-link']}`}>
                   3D Modelling
+                </span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className={`${styles['link']}`} href="/services">
+                <span className={`nav-link ${styles['nav-link']}`}>
+                  Services
                 </span>
               </Link>
             </li>
