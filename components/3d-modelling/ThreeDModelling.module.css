@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 189px 50px 0 50px;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+}
+.image-background {
+  top: 350px;
+  position: absolute;
+  height: auto;
+}
+.container-background {
+  position: relative;
+}
