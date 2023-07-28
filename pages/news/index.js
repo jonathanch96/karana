@@ -1,4 +1,4 @@
-import InstagramContainer from '@/components/instagram/InstagramContainer'
+import InstagramContainer from '@/components/home/instagram/InstagramContainer'
 import Layout from '@/components/layout/Layout'
 import NewsContainer from '@/components/news/NewsContainer'
 

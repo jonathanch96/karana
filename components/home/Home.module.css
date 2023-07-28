@@ -1,4 +1,43 @@
-.banner-1{
-    width: 100%;
-    height: 100%;
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+.content-container {
+  color: #27425c;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 125px auto;
+  width: 1180px;
+}
+.content-1 {
+  margin-bottom: 30px;
+}
+.content-2 {
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #27425c;
+}
+
+.instagram-link {
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #27425c;
+  text-decoration: none;
 }

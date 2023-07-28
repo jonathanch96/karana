@@ -5,7 +5,7 @@
 .navbar {
   padding: 40px 50px;
   margin-top: 3px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
