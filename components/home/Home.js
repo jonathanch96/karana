@@ -42,7 +42,7 @@ const Home = () => {
           }}
         >
           {banner.map((slide) => (
-            <SwiperSlide key={slide}>
+            <SwiperSlide key={'banner' + slide}>
               <Image
                 className={styles['banner-image']}
                 width={1440}

@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <main className={`${styles['main']}`}>{children}</main>
+      <div id="modal-root"></div>
       <Footer />
     </>
   )

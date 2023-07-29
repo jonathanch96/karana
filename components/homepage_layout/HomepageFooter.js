@@ -19,17 +19,24 @@ const HomepageFooter = () => {
         width={297}
         height={19}
         className={styles['watermark']}
+        alt="watermark"
       />
       <div className={`container ${styles.container}`}>
-        {data.map((footer) => (
-          <div key={footer.group_name} className={`row ${styles['row']}`}>
+        {data.map((footer, index) => (
+          <div
+            key={'footer' + footer.group_name}
+            className={`row ${styles['row']}`}
+          >
             <div className="col-12">
               <ul className="list-unstyled">
                 <li className={`${styles['footer-title']}`}>
                   {footer.group_name}
                 </li>
-                {footer.menu.map((sub) => (
-                  <li className={`${styles['footer-list']}`}>
+                {footer.menu.map((sub, subIndex) => (
+                  <li
+                    key={'submenu' + index + sub.link + subIndex}
+                    className={`${styles['footer-list']}`}
+                  >
                     <Link
                       className={`${styles.link}`}
                       href={sub.link}

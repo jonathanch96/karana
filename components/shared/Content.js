@@ -8,7 +8,7 @@ const Content = (props) => {
       <div className={styles['title-container']}>
         <div className={styles['title']}>
           {titleParts.map((part, index) => (
-            <React.Fragment key={index}>
+            <React.Fragment key={'content' + index}>
               {index > 0 && <br />} {part}
             </React.Fragment>
           ))}

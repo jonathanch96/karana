@@ -1,6 +1,7 @@
 import ProjectCard from './ProjectCard'
 import styles from './ProjectContainer.module.css'
 import ProjectFilter from './ProjectFilter'
+import projects from '../../data/projects.json'
 
 const ProjectContainer = () => {
   return (
@@ -20,13 +21,9 @@ const ProjectContainer = () => {
         <ProjectFilter child={[]} url={'/'} name={'Comprehensive Design'} />
       </div>
       <div className={`${styles['content-container']} row`}>
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((data) => (
+          <ProjectCard key={'project' + data.project} data={data} />
+        ))}
       </div>
     </div>
   )

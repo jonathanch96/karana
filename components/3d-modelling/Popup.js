@@ -42,7 +42,7 @@ const Popup = ({ images, index, isOpen, closeModal }) => {
           ref={swiperRef}
         >
           {images.map((image, index) => (
-            <SwiperSlide key={'image' + index}>
+            <SwiperSlide key={'image-popup' + index}>
               <Image
                 src={image}
                 width={940}

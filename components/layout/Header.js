@@ -45,7 +45,7 @@ const Header = () => {
               </Link>
             </li>
             {data.map((header) => (
-              <li key={header.name} className="nav-item">
+              <li key={'header' + header.name} className="nav-item">
                 <Link
                   className={`${styles['link']} ${isActive(header.link)}`}
                   href={header.link}

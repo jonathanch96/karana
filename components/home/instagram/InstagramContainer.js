@@ -5,8 +5,8 @@ import data from '../../../data/instagram.json'
 const InstagramContainer = () => {
   return (
     <div className={styles['container']}>
-      {data.map((instagram) => (
-        <a href={instagram.link}>
+      {data.map((instagram, index) => (
+        <a key={'instagram' + index} href={instagram.link}>
           <Image
             width={340}
             height={340}

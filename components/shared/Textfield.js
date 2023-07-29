@@ -3,8 +3,10 @@ import styles from './Textfield.module.css'
 const Textfield = (props) => {
   return (
     <div className={`${styles['container']} ${props.className}`}>
-      <div className={styles['title']}>{props.title}</div>
-      <div className={styles['description']}>
+      <div className={`${styles['title']} ${props.titleClassName}`}>
+        {props.title}
+      </div>
+      <div className={`${styles['description']} ${props.descriptionClassName}`}>
         {props.link && (
           <a className={styles['link']} href={props.link} target={props.target}>
             {props.description}

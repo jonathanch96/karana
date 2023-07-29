@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './ImageContainer.module.css'
-import Popup from './Popup'
 import { useState } from 'react'
+import PopupPortal from './PopupPortal'
 
 const ImageContainer = ({ title, images, detailImages }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -18,7 +18,7 @@ const ImageContainer = ({ title, images, detailImages }) => {
 
   return (
     <>
-      <Popup
+      <PopupPortal
         isOpen={isOpen}
         images={detailImages}
         index={index}
@@ -29,7 +29,7 @@ const ImageContainer = ({ title, images, detailImages }) => {
         <div className={styles['image-container']}>
           {images.map((image, index) => (
             <Image
-              key={index}
+              key={'image_container' + index}
               onClick={() => {
                 openModal(index)
               }}

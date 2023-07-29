@@ -30,13 +30,13 @@
         "rel": "noopener noreferrer"
       },
       {
-        "name": "Project",
-        "link": "/project"
+        "name": "Facebook",
+        "link": "/facebook.com"
       }
     ]
   },
   {
-    "group_name": "Social",
+    "group_name": "Contact",
     "menu": [
       {
         "name": "Book a Call",
