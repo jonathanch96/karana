@@ -1,5 +1,6 @@
 [
   {
+    "menu": "Bening's Clinic (Cibubur)",
     "link": "/projects/bening-clinic-cibubur",
     "project": "BENING’S CLINIC CIBUBUR",
     "title": "BENING CIBUBUR",
@@ -44,6 +45,246 @@
         "/images/projects/Bening Cibubur/additional_3.png"
       ],
       "preview": "/images/projects/Bening Cibubur/preview.png"
+    }
+  },
+  {
+    "menu": "Crabs & Co",
+    "link": "/projects/crabs-and-co",
+    "project": "CRABS & CO",
+    "title": "CRABS & CO",
+    "location": "Bandung, Indonesia",
+    "year": "2022",
+    "client": "Crabs & Co",
+    "team": "Datu Aria Kandhabuana, Iman Diman Gissa Nurhalisa",
+    "category": "Architecture, Interior Design, Commecrial, Beauty Clinc & Skincare",
+    "images": {
+      "project": [
+        {
+          "name": "project_1",
+          "main_images": "/images/projects/Crabs & Co/main_1.png",
+          "additional_images": [
+            "/images/projects/Crabs & Co/additional_1_1.png",
+            "/images/projects/Crabs & Co/additional_1_2.png",
+            "/images/projects/Crabs & Co/additional_1_3.png"
+          ]
+        },
+        {
+          "name": "project_2",
+          "main_images": "/images/projects/Crabs & Co/main_2.png",
+          "additional_images": [
+            "/images/projects/Crabs & Co/additional_2_1.png",
+            "/images/projects/Crabs & Co/additional_2_2.png",
+            "/images/projects/Crabs & Co/additional_2_3.png"
+          ]
+        },
+        {
+          "name": "project_3",
+          "main_images": "/images/projects/Crabs & Co/main_3.png",
+          "additional_images": [
+            "/images/projects/Crabs & Co/additional_3_1.png",
+            "/images/projects/Crabs & Co/additional_3_2.png",
+            "/images/projects/Crabs & Co/additional_3_3.png"
+          ]
+        }
+      ],
+      "quick_view": [
+        "/images/projects/Crabs & Co/additional_3_1.png",
+        "/images/projects/Crabs & Co/additional_3_2.png",
+        "/images/projects/Crabs & Co/additional_3_3.png"
+      ],
+      "preview": "/images/projects/Crabs & Co/preview.png"
+    }
+  },
+  {
+    "menu": "Bosscha Space",
+    "link": "/projects/bosscha-space",
+    "project": "BOSSCHA SPACE",
+    "title": "BOSSCHA SPACE",
+    "location": "Bandung, Indonesia",
+    "year": "2022",
+    "client": "Bosscha Space",
+    "team": "Datu Aria Kandhabuana, Iman Diman Gissa Nurhalisa",
+    "category": "Architecture, Interior Design, Commecrial, Beauty Clinc & Skincare",
+    "images": {
+      "project": [
+        {
+          "name": "project_1",
+          "main_images": "/images/projects/Bosscha Space/main_1.png",
+          "additional_images": [
+            "/images/projects/Bosscha Space/additional_1_1.png",
+            "/images/projects/Bosscha Space/additional_1_2.png",
+            "/images/projects/Bosscha Space/additional_1_3.png"
+          ]
+        },
+        {
+          "name": "project_2",
+          "main_images": "/images/projects/Bosscha Space/main_2.png",
+          "additional_images": [
+            "/images/projects/Bosscha Space/additional_2_1.png",
+            "/images/projects/Bosscha Space/additional_2_2.png",
+            "/images/projects/Bosscha Space/additional_2_3.png"
+          ]
+        },
+        {
+          "name": "project_3",
+          "main_images": "/images/projects/Bosscha Space/main_3.png",
+          "additional_images": [
+            "/images/projects/Bosscha Space/additional_3_1.png",
+            "/images/projects/Bosscha Space/additional_3_2.png",
+            "/images/projects/Bosscha Space/additional_3_3.png"
+          ]
+        }
+      ],
+      "quick_view": [
+        "/images/projects/Bosscha Space/additional_3_1.png",
+        "/images/projects/Bosscha Space/additional_3_2.png",
+        "/images/projects/Bosscha Space/additional_3_3.png"
+      ],
+      "preview": "/images/projects/Bosscha Space/preview.png"
+    }
+  },
+  {
+    "menu": "Bening's Clinic (Samarinda)",
+    "link": "/projects/bening-clinic-samarinda",
+    "project": "BENING’S CLINIC SAMARINDA",
+    "title": "BENING SAMARINDA",
+    "location": "Samarinda, Indonesia",
+    "year": "2022",
+    "client": "Bening Clinic",
+    "team": "Datu Aria Kandhabuana, Iman Diman Gissa Nurhalisa",
+    "category": "Architecture, Interior Design, Commecrial, Beauty Clinc & Skincare",
+    "images": {
+      "project": [
+        {
+          "name": "project_1",
+          "main_images": "/images/projects/Bening Samarinda/main_1.png",
+          "additional_images": [
+            "/images/projects/Bening Samarinda/additional_1_1.png",
+            "/images/projects/Bening Samarinda/additional_1_2.png",
+            "/images/projects/Bening Samarinda/additional_1_3.png"
+          ]
+        },
+        {
+          "name": "project_2",
+          "main_images": "/images/projects/Bening Samarinda/main_2.png",
+          "additional_images": [
+            "/images/projects/Bening Samarinda/additional_2_1.png",
+            "/images/projects/Bening Samarinda/additional_2_2.png",
+            "/images/projects/Bening Samarinda/additional_2_3.png"
+          ]
+        },
+        {
+          "name": "project_3",
+          "main_images": "/images/projects/Bening Samarinda/main_3.png",
+          "additional_images": [
+            "/images/projects/Bening Samarinda/additional_3_1.png",
+            "/images/projects/Bening Samarinda/additional_3_2.png",
+            "/images/projects/Bening Samarinda/additional_3_3.png"
+          ]
+        }
+      ],
+      "quick_view": [
+        "/images/projects/Bening Samarinda/additional_3_1.png",
+        "/images/projects/Bening Samarinda/additional_3_2.png",
+        "/images/projects/Bening Samarinda/additional_3_3.png"
+      ],
+      "preview": "/images/projects/Bening Samarinda/preview.png"
+    }
+  },
+  {
+    "menu": "Bening's Office",
+    "link": "/projects/bening-clinic-office",
+    "project": "BENING’S OFFICE",
+    "title": "BENING OFFICE",
+    "location": "Bandung, Indonesia",
+    "year": "2022",
+    "client": "Bening Clinic",
+    "team": "Datu Aria Kandhabuana, Iman Diman Gissa Nurhalisa",
+    "category": "Architecture, Interior Design, Commecrial, Beauty Clinc & Skincare",
+    "images": {
+      "project": [
+        {
+          "name": "project_1",
+          "main_images": "/images/projects/Bening Office/main_1.png",
+          "additional_images": [
+            "/images/projects/Bening Office/additional_1_1.png",
+            "/images/projects/Bening Office/additional_1_2.png",
+            "/images/projects/Bening Office/additional_1_3.png"
+          ]
+        },
+        {
+          "name": "project_2",
+          "main_images": "/images/projects/Bening Office/main_2.png",
+          "additional_images": [
+            "/images/projects/Bening Office/additional_2_1.png",
+            "/images/projects/Bening Office/additional_2_2.png",
+            "/images/projects/Bening Office/additional_2_3.png"
+          ]
+        },
+        {
+          "name": "project_3",
+          "main_images": "/images/projects/Bening Office/main_3.png",
+          "additional_images": [
+            "/images/projects/Bening Office/additional_3_1.png",
+            "/images/projects/Bening Office/additional_3_2.png",
+            "/images/projects/Bening Office/additional_3_3.png"
+          ]
+        }
+      ],
+      "quick_view": [
+        "/images/projects/Bening Office/additional_3_1.png",
+        "/images/projects/Bening Office/additional_3_2.png",
+        "/images/projects/Bening Office/additional_3_3.png"
+      ],
+      "preview": "/images/projects/Bening Office/preview.png"
+    }
+  },
+  {
+    "menu": "Bening's Clinic (Gresik)",
+    "link": "/projects/bening-clinic-gresik",
+    "project": "BENING’S CLINIC GRESIK",
+    "title": "BENING GRESIK",
+    "location": "Gresik, Indonesia",
+    "year": "2022",
+    "client": "Bening Clinic",
+    "team": "Datu Aria Kandhabuana, Iman Diman Gissa Nurhalisa",
+    "category": "Architecture, Interior Design, Commecrial, Beauty Clinc & Skincare",
+    "images": {
+      "project": [
+        {
+          "name": "project_1",
+          "main_images": "/images/projects/Bening Gresik/main_1.png",
+          "additional_images": [
+            "/images/projects/Bening Gresik/additional_1_1.png",
+            "/images/projects/Bening Gresik/additional_1_2.png",
+            "/images/projects/Bening Gresik/additional_1_3.png"
+          ]
+        },
+        {
+          "name": "project_2",
+          "main_images": "/images/projects/Bening Gresik/main_2.png",
+          "additional_images": [
+            "/images/projects/Bening Gresik/additional_2_1.png",
+            "/images/projects/Bening Gresik/additional_2_2.png",
+            "/images/projects/Bening Gresik/additional_2_3.png"
+          ]
+        },
+        {
+          "name": "project_3",
+          "main_images": "/images/projects/Bening Gresik/main_3.png",
+          "additional_images": [
+            "/images/projects/Bening Gresik/additional_3_1.png",
+            "/images/projects/Bening Gresik/additional_3_2.png",
+            "/images/projects/Bening Gresik/additional_3_3.png"
+          ]
+        }
+      ],
+      "quick_view": [
+        "/images/projects/Bening Gresik/additional_3_1.png",
+        "/images/projects/Bening Gresik/additional_3_2.png",
+        "/images/projects/Bening Gresik/additional_3_3.png"
+      ],
+      "preview": "/images/projects/Bening Gresik/preview.png"
     }
   }
 ]

@@ -7,18 +7,10 @@ const ProjectContainer = () => {
   return (
     <div className={styles['container']}>
       <div className={styles['filter-container']}>
-        <ProjectFilter child={[]} url={'/'} name={'All Projects'} />
-        <ProjectFilter
-          child={[
-            { url: '/', name: 'F&B (2)' },
-            { url: '/', name: 'Beauty Clinic (1)' },
-            { url: '/', name: 'Home' },
-          ]}
-          url={'#'}
-          name={'Interior Design'}
-        />
-        <ProjectFilter child={[]} url={'/'} name={'Construction Building'} />
-        <ProjectFilter child={[]} url={'/'} name={'Comprehensive Design'} />
+        <ProjectFilter child={[]} url={'#'} name={'All Projects'} />
+        {projects.map((project) => (
+          <ProjectFilter child={[]} url={project.link} name={project.menu} />
+        ))}
       </div>
       <div className={`${styles['content-container']} row`}>
         {projects.map((data) => (
