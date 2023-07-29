@@ -14,6 +14,12 @@ const Footer = () => {
           height={500}
         />
       </div>
+      <Image
+        src="/images/watermark.png"
+        width={297}
+        height={19}
+        className={styles['watermark']}
+      />
       <div className={`container ${styles.container}`}>
         {data.map((footer) => (
           <div key={footer.group_name} className={`row ${styles['row']}`}>

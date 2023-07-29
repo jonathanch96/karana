@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './HomeContent.module.css'
 
-const HomeContent = ({ type = 'left' }) => {
+const HomeContent = ({ type = 'left', data }) => {
   return (
     <div className={styles['container']}>
       {type == 'left' && (
@@ -11,7 +11,7 @@ const HomeContent = ({ type = 'left' }) => {
               width={940}
               height={1080}
               alt="Content"
-              src={'/images/home/home_1.png'}
+              src={data.main_images}
               className={styles['images']}
             />
           </div>
@@ -20,14 +20,14 @@ const HomeContent = ({ type = 'left' }) => {
               width={940}
               height={1080}
               alt="Content"
-              src={'/images/home/home_1.png'}
+              src={data.additional_images[0]}
               className={styles['images-2']}
             />
             <Image
               width={940}
               height={1080}
               alt="Content"
-              src={'/images/home/home_1.png'}
+              src={data.additional_images[1]}
               className={styles['images-2']}
             />
           </div>
@@ -40,14 +40,14 @@ const HomeContent = ({ type = 'left' }) => {
               width={940}
               height={1080}
               alt="Content"
-              src={'/images/home/home_1.png'}
+              src={data.additional_images[0]}
               className={styles['images-2']}
             />
             <Image
               width={940}
               height={1080}
               alt="Content"
-              src={'/images/home/home_1.png'}
+              src={data.additional_images[1]}
               className={styles['images-2']}
             />
           </div>
@@ -56,7 +56,7 @@ const HomeContent = ({ type = 'left' }) => {
               width={940}
               height={1080}
               alt="Content"
-              src={'/images/home/home_1.png'}
+              src={data.main_images}
               className={styles['images']}
             />
           </div>

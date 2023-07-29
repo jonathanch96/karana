@@ -1,0 +1,30 @@
+[
+  {
+    "main_images": "/images/home/main_1.png",
+    "additional_images": [
+      "/images/home/home_1_1.png",
+      "/images/home/home_1_2.png"
+    ]
+  },
+  {
+    "main_images": "/images/home/main_2.png",
+    "additional_images": [
+      "/images/home/home_2_1.png",
+      "/images/home/home_2_2.png"
+    ]
+  },
+  {
+    "main_images": "/images/home/main_3.png",
+    "additional_images": [
+      "/images/home/home_3_1.png",
+      "/images/home/home_3_2.png"
+    ]
+  },
+  {
+    "main_images": "/images/home/main_4.png",
+    "additional_images": [
+      "/images/home/home_4_1.png",
+      "/images/home/home_4_2.png"
+    ]
+  }
+]

@@ -47,3 +47,8 @@
   width: 173px;
   padding: 0;
 }
+.watermark {
+  position: absolute;
+  bottom: 50px;
+  left: 130px;
+}

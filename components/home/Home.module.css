@@ -41,3 +41,12 @@
   color: #27425c;
   text-decoration: none;
 }
+.container-background {
+  position: relative;
+}
+.image-background {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 395px;
+}

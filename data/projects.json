@@ -1,20 +1,23 @@
 {
   "data": [
     {
-      "title": "Bening Cibubur",
-      "name": "Bening'S Clinic",
-      "client": "Bening Clinic",
-      "location": "Bandung, Indonesia",
+      "project": "BENING’S CLINIC CIBUBUR",
+      "location": "Cibubur, Indonesia",
       "year": "2022",
-      "team": ["Datu Aria", "Kandhabuana", "Iman Diman", "Gissa Nurhalisa"],
-      "category": [
-        "Architecture",
-        "Interior Design",
-        "Commercial",
-        "Beauty Clinic",
-        "Skincare"
+      "client": "Bening Clinic",
+      "team": "Datu Aria Kandhabuana, Iman Diman Gissa Nurhalisa",
+      "category": "Architecture, Interior Design, Commecrial, Beauty Clinc & Skincare",
+      "images": [
+        {
+          "data": [
+            "/images/projects/BENING CIBUBUR/21.JPG",
+            "/images/projects/BENING CIBUBUR/18.JPG",
+            "/images/projects/BENING CIBUBUR/6.JPG",
+            "/images/projects/BENING CIBUBUR/6.JPG"
+          ]
+        }
       ],
-      "images": []
+      "quick_images": []
     }
   ]
 }
