@@ -14,9 +14,27 @@
           "name": "project_1",
           "main_images": "/images/projects/Bening Cibubur/main_1.png",
           "additional_images": [
-            "/images/projects/Bening Cibubur/additional_1.png",
-            "/images/projects/Bening Cibubur/additional_2.png",
-            "/images/projects/Bening Cibubur/additional_3.png"
+            "/images/projects/Bening Cibubur/additional_1_1.png",
+            "/images/projects/Bening Cibubur/additional_1_2.png",
+            "/images/projects/Bening Cibubur/additional_1_3.png"
+          ]
+        },
+        {
+          "name": "project_2",
+          "main_images": "/images/projects/Bening Cibubur/main_2.png",
+          "additional_images": [
+            "/images/projects/Bening Cibubur/additional_2_1.png",
+            "/images/projects/Bening Cibubur/additional_2_2.png",
+            "/images/projects/Bening Cibubur/additional_2_3.png"
+          ]
+        },
+        {
+          "name": "project_3",
+          "main_images": "/images/projects/Bening Cibubur/main_3.png",
+          "additional_images": [
+            "/images/projects/Bening Cibubur/additional_3_1.png",
+            "/images/projects/Bening Cibubur/additional_3_2.png",
+            "/images/projects/Bening Cibubur/additional_3_3.png"
           ]
         }
       ],
