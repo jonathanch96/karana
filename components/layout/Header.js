@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Header.module.css'
 import { useRouter } from 'next/router'
+import data from '../../data/header.json'
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -43,64 +44,18 @@ const Header = () => {
                 <span className={`nav-link ${styles['nav-link']}`}>Home</span>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                className={`${styles['link']} ${isActive('/projects')}`}
-                href="/projects"
-              >
-                <span className={`nav-link ${styles['nav-link']}`}>
-                  Project
-                </span>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className={`${styles['link']} ${isActive('/3d-modelling')}`}
-                href="/3d-modelling"
-              >
-                <span className={`nav-link ${styles['nav-link']}`}>
-                  3D Modelling
-                </span>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className={`${styles['link']} ${isActive('/services')}`}
-                href="/services"
-              >
-                <span className={`nav-link ${styles['nav-link']}`}>
-                  Services
-                </span>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className={`${styles['link']} ${isActive('/about')}`}
-                href="/about"
-              >
-                <span className={`nav-link ${styles['nav-link']}`}>About</span>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className={`${styles['link']} ${isActive('/contact')}`}
-                href="/contact"
-              >
-                <span className={`nav-link ${styles['nav-link']}`}>
-                  Contact
-                </span>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className={`${styles['link']} ${isActive('/book-a-call')}`}
-                href="/book-a-call"
-              >
-                <span className={`nav-link ${styles['nav-link']}`}>
-                  Book a Call
-                </span>
-              </Link>
-            </li>
+            {data.map((header) => (
+              <li key={header.name} className="nav-item">
+                <Link
+                  className={`${styles['link']} ${isActive(header.link)}`}
+                  href={header.link}
+                >
+                  <span className={`nav-link ${styles['nav-link']}`}>
+                    {header.name}
+                  </span>
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

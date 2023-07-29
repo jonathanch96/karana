@@ -1,0 +1,26 @@
+[
+  {
+    "name": "project",
+    "link": "/projects"
+  },
+  {
+    "name": "3d modelling",
+    "link": "/3d-modelling"
+  },
+  {
+    "name": "services",
+    "link": "/services"
+  },
+  {
+    "name": "about",
+    "link": "/about"
+  },
+  {
+    "name": "contact",
+    "link": "/contact"
+  },
+  {
+    "name": "book a call",
+    "link": "/book-a-call"
+  }
+]

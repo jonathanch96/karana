@@ -1,0 +1,53 @@
+[
+  {
+    "group_name": "Pages",
+    "menu": [
+      {
+        "name": "About",
+        "link": "/about"
+      },
+      {
+        "name": "Project",
+        "link": "/project"
+      },
+      {
+        "name": "3D Modelling",
+        "link": "/3d-modelling"
+      },
+      {
+        "name": "Services",
+        "link": "/services"
+      }
+    ]
+  },
+  {
+    "group_name": "Social",
+    "menu": [
+      {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/karana.bureau/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "name": "Project",
+        "link": "/project"
+      }
+    ]
+  },
+  {
+    "group_name": "Social",
+    "menu": [
+      {
+        "name": "Book a Call",
+        "link": "https://wa.me/6281224886828?text=Halo Karana, Saya ingin bertanya tentang ...",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  {
+    "group_name": "Location",
+    "menu": []
+  }
+]

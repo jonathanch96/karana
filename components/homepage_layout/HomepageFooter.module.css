@@ -16,7 +16,7 @@
 .container {
   z-index: 10;
   display: flex;
-  gap: 68px;
+  gap: 8px;
   padding: 55px 130px;
   margin: 0;
   position: relative;
@@ -42,4 +42,8 @@
 }
 .footer-list {
   margin-bottom: 10px;
+}
+.row {
+  width: 173px;
+  padding: 0;
 }

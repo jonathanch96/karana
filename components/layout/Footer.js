@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from './Footer.module.css'
 import Image from 'next/image'
+import data from '../../data/footer.json'
 const Footer = () => {
   return (
     <footer className={`py-4 ${styles.footer}`}>
@@ -14,64 +15,29 @@ const Footer = () => {
         />
       </div>
       <div className={`container ${styles.container}`}>
-        <div className="row">
-          <div className="col-12">
-            <ul className="list-unstyled">
-              <li className={`${styles['footer-title']}`}>Pages</li>
-              <li className={`${styles['footer-list']}`}>
-                <Link className={`${styles.link}`} href="/about">
-                  About
-                </Link>
-              </li>
-              <li className={`${styles['footer-list']}`}>
-                <Link className={`${styles.link}`} href="/project">
-                  Project
-                </Link>
-              </li>
-              <li className={`${styles['footer-list']}`}>
-                <Link className={`${styles.link}`} href="/product">
-                  Product
-                </Link>
-              </li>
-              <li className={`${styles['footer-list']}`}>
-                <Link className={`${styles.link}`} href="/news">
-                  News
-                </Link>
-              </li>
-            </ul>
+        {data.map((footer) => (
+          <div key={footer.group_name} className={`row ${styles['row']}`}>
+            <div className="col-12">
+              <ul className="list-unstyled">
+                <li className={`${styles['footer-title']}`}>
+                  {footer.group_name}
+                </li>
+                {footer.menu.map((sub) => (
+                  <li className={`${styles['footer-list']}`}>
+                    <Link
+                      className={`${styles.link}`}
+                      href={sub.link}
+                      target={sub.target ? sub.target : ''}
+                      rel={sub.rel ? sub.rel : ''}
+                    >
+                      {sub.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            <ul className="list-unstyled">
-              <li className={`${styles['footer-title']}`}>Social</li>
-              <li className={`${styles['footer-list']}`}>
-                <Link className={`${styles.link}`} href="/">
-                  Instagram
-                </Link>
-              </li>
-              <li className={`${styles['footer-list']}`}>
-                <Link className={`${styles.link}`} href="/">
-                  Facebook
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            <ul className="list-unstyled">
-              <li className={`${styles['footer-title']}`}>Location</li>
-            </ul>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            <ul className="list-unstyled">
-              <li className={`${styles['footer-title']}`}>Contact</li>
-            </ul>
-          </div>
-        </div>
+        ))}
       </div>
     </footer>
   )
