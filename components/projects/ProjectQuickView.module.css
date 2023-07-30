@@ -11,7 +11,8 @@
   z-index: 1000;
 }
 .content-container {
-  width: 65%;
+  width: fit-content;
+  min-width: 65%;
   height: 40vw;
   background-color: white;
   margin: 0 auto;
