@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './Contact.module.css'
 import Content from '../shared/Content'
 import Textfield from '../shared/Textfield'
-
+import contact from '../../data/contact.json'
 const Contact = () => {
   return (
     <div className="container-background">
@@ -15,27 +15,29 @@ const Contact = () => {
       <Content title="Contact">
         <div className={styles['container']}>
           <div className={styles['container-left']}>
-            <Textfield title="Email" description="karanabureau@gmail.com" />
+            <Textfield title="Email" description={contact.email} />
             <Textfield
-              link="https://wa.me/6281224886828?text=Halo Karana, Saya ingin bertanya tentang ..."
+              link={contact.wa_link}
               target="_blank"
+              rel="noopener noreferrer"
               title="Phone/Whatsapp"
-              description="+62 812-2488-6828"
+              description={contact.wa_text}
             />
             <Textfield
-              link="https://www.instagram.com/karana.bureau/"
+              link={contact.instagram_link}
               target="_blank"
+              rel="noopener noreferrer"
               title="Instagram"
-              description="@karana.bureau"
+              description={contact.instagram_text}
             />
           </div>
           <div className={styles['container-right']}>
             <Textfield
               title="Address"
-              description="Jl. Batik Kumeli No.38 Kota Bandung, Jawa Barat"
+              description={contact.address}
               className={styles['address']}
             />
-            <a href="" target="_blank">
+            <a href={contact.maps_link} target="_blank">
               <Image
                 src="/images/map.png"
                 className={styles['image']}

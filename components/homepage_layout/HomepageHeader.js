@@ -54,6 +54,8 @@ const HomepageHeader = () => {
                 <Link
                   className={`${styles['link']} ${isActive(header.link)}`}
                   href={header.link}
+                  target={header.target ? header.target : ''}
+                  rel={header.rel ? header.rel : ''}
                 >
                   <span className={`nav-link ${styles['nav-link']}`}>
                     {header.name}

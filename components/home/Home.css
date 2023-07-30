@@ -1,17 +1,17 @@
-.swiper {
+.Home .swiper {
   width: 100%;
   height: 100%;
 }
-.swiper-pagination {
+.Home .swiper-pagination {
   bottom: 30px !important;
 }
-.swiper-pagination-bullet {
+.Home .swiper-pagination-bullet {
   width: 14px;
   height: 14px;
   border: 2px solid white;
   opacity: 1;
   background: transparent;
 }
-.swiper-pagination-bullet-active {
+.Home .swiper-pagination-bullet-active {
   background: white;
 }

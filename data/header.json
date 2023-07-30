@@ -21,6 +21,8 @@
   },
   {
     "name": "book a call",
-    "link": "/book-a-call"
+    "link": "https://wa.me/6281224886828?text=Halo Karana, Saya ingin bertanya tentang ...",
+    "target": "_blank",
+    "rel": "noopener noreferrer"
   }
 ]

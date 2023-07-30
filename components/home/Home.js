@@ -28,7 +28,7 @@ const Home = () => {
         height={7681}
         src="/images/background_home.png"
       />
-      <div className={`${styles['container']}`}>
+      <div className={`Home ${styles['container']}`}>
         <Swiper
           spaceBetween={30}
           pagination={{

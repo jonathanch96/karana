@@ -4,7 +4,7 @@ import Footer from './Footer'
 import styles from './Layout.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import contact from '../../data/contact.json'
 const Layout = ({ children }) => {
   return (
     <>
@@ -12,8 +12,9 @@ const Layout = ({ children }) => {
       <main className={`${styles['main']}`}>
         {children}
         <Link
-          href={'google.com'}
+          href={contact.wa_link}
           target="_blank"
+          rel="noopener noreferrer"
           className={styles['floating-link']}
         >
           <Image

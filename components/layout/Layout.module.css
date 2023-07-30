@@ -8,7 +8,7 @@
   width: 75px;
   height: 75px;
   position: sticky;
-  z-index: 1000;
+  z-index: 1001;
   bottom: 40px; /* Adjust the distance from the bottom of the screen */
   left: 90%;
   display: inline-block;
