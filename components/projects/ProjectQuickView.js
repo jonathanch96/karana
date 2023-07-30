@@ -20,7 +20,7 @@ const ProjectQuickView = ({ data, isOpen, closeModal }) => {
   const swiperRef = useRef(null)
   return (
     isOpen && (
-      <div className={styles['container']}>
+      <div className={`${styles['container']} ProjectQuickView`}>
         <Image
           width={20}
           height={20}

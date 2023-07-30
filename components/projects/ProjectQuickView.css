@@ -1,4 +1,4 @@
-.swiper-pagination {
+.ProjectQuickView .swiper-pagination {
   margin-left: 10%;
   color: #000;
   font-family: Space Grotesk;
@@ -7,4 +7,3 @@
   font-weight: 400;
   line-height: normal;
 }
-

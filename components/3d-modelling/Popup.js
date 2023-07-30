@@ -23,13 +23,13 @@ const Popup = ({ images, index, isOpen, closeModal }) => {
   }, [index])
   return (
     isOpen && (
-      <div className={styles['container']}>
+      <div className={`${styles['container']} Popup`}>
         <Image
           width={20}
           height={20}
           alt="close"
           onClick={closeModal}
-          src={'images/close.svg'}
+          src={'/images/close.svg'}
           className={styles['close-icon']}
         />
         <Swiper

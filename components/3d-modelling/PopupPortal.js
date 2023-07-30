@@ -1,5 +1,3 @@
-// PopupPortal.js
-
 import ReactDOM from 'react-dom'
 import Popup from './Popup'
 import { useEffect, useState } from 'react'

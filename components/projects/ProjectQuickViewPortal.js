@@ -1,5 +1,3 @@
-// PopupPortal.js
-
 import ReactDOM from 'react-dom'
 import { useEffect, useState } from 'react'
 import ProjectQuickView from './ProjectQuickView'

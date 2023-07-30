@@ -1,12 +1,18 @@
 import Image from 'next/image'
 import styles from './ProjectDetailImage.module.css'
-const ProjectDetailImage = ({ mainImages, additionalImages = [] }) => {
+const ProjectDetailImage = ({
+  mainImages,
+  additionalImages = [],
+  startIndex = 0,
+  openModal = (index) => {},
+}) => {
   return (
     <div className={styles['container']}>
       <div className={styles['image-container']}>
         {additionalImages.map((image, index) => (
           <Image
-            key={'detaikImage' + index}
+            onClick={() => openModal(startIndex + index)}
+            key={'detailImage' + index}
             className={styles['image']}
             width={440}
             height={434}
@@ -16,6 +22,7 @@ const ProjectDetailImage = ({ mainImages, additionalImages = [] }) => {
       </div>
       <div className={styles['image-container']}>
         <Image
+          onClick={() => openModal(startIndex + 3)}
           className={styles['image-full']}
           width={1338}
           height={878}

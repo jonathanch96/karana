@@ -1,4 +1,15 @@
-.main{
-    min-height: 600px;
-    padding-top: 120px;
+.main {
+  min-height: 600px;
+  padding-top: 120px;
+  position: relative;
+  padding-bottom: 40px;
+}
+.floating-link {
+  width: 75px;
+  height: 75px;
+  position: sticky;
+  z-index: 1000;
+  bottom: 40px; /* Adjust the distance from the bottom of the screen */
+  left: 90%;
+  display: inline-block;
 }

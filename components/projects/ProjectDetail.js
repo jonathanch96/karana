@@ -4,6 +4,8 @@ import ProjectDetailImage from './ProjectDetailImage'
 import projects from '../../data/projects.json'
 import { useRouter } from 'next/router'
 import Error from 'next/error'
+import PopupPortal from '../3d-modelling/PopupPortal'
+import { useState } from 'react'
 const ProjectDetail = () => {
   const router = useRouter()
   const { id } = router.query
@@ -16,8 +18,32 @@ const ProjectDetail = () => {
     return <Error statusCode={404} />
   }
 
+  const [isOpen, setIsOpen] = useState(false)
+  const [index, setIndex] = useState(0)
+
+  const openModal = (index) => {
+    setIsOpen(true)
+    setIndex(index)
+  }
+
+  const closeModal = () => {
+    setIsOpen(false)
+  }
+
+  const detailImages = []
+  project.images.project.forEach((detail) => {
+    detailImages.push(...detail.additional_images)
+    detailImages.push(detail.main_images)
+  })
+
   return (
     <div className="container-background">
+      <PopupPortal
+        isOpen={isOpen}
+        images={detailImages}
+        index={index}
+        closeModal={closeModal}
+      />
       <Image
         className={styles['image-background']}
         width={1440}
@@ -56,8 +82,10 @@ const ProjectDetail = () => {
           </div>
         </div>
         <div className={styles['project-images-container']}>
-          {project.images.project.map((detail) => (
+          {project.images.project.map((detail, index) => (
             <ProjectDetailImage
+              startIndex={index * 4}
+              openModal={openModal}
               mainImages={detail.main_images}
               additionalImages={detail.additional_images}
             />

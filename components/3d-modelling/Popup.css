@@ -1,19 +1,19 @@
-.swiper-button-next {
+.Popup .swiper-button-next {
   color: white;
 }
-.swiper-button-prev {
+.Popup .swiper-button-prev {
   color: white;
 }
-.swiper {
+.Popup .swiper {
   width: 100%;
   height: 100%;
 }
-.swiper-slide {
+.Popup .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.swiper-pagination {
+.Popup .swiper-pagination {
   color: white;
   text-align: center;
   font-family: Space Grotesk;
@@ -25,9 +25,9 @@
   top: 16px;
   height: 12px;
 }
-.swiper-button-next::after {
+.Popup .swiper-button-next::after {
   font-size: 27px;
 }
-.swiper-button-prev:after {
+.Popup .swiper-button-prev:after {
   font-size: 27px;
 }
