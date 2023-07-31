@@ -2,6 +2,8 @@ import Link from 'next/link'
 import styles from './HomepageFooter.module.css'
 import Image from 'next/image'
 import data from '../../data/footer.json'
+import contact from '../../data/contact.json'
+
 const HomepageFooter = () => {
   return (
     <footer className={`py-4 ${styles.footer}`}>
@@ -14,13 +16,35 @@ const HomepageFooter = () => {
           height={500}
         />
       </div>
-      <Image
-        src="/images/watermark.png"
-        width={297}
-        height={19}
-        className={styles['watermark']}
-        alt="watermark"
-      />
+      <div className={styles['watermark']}>
+        <Image
+          src="/images/designed_by.png"
+          width={66}
+          height={13}
+          style={{ marginRight: '10px', alignSelf: 'end' }}
+          alt="designed by"
+        />
+        <Link href={contact.dassein} target="_blank">
+          <Image
+            style={{ marginRight: '15px' }}
+            src="/images/dassein.png"
+            width={60}
+            height={15}
+            alt="dassein"
+          />
+        </Link>
+        <Image
+          style={{ marginRight: '15px', alignSelf: 'end' }}
+          src="/images/powered_by.png"
+          width={78}
+          height={15}
+          alt="powered by"
+        />
+        <Link href={contact.xerv} target="_blank">
+          {' '}
+          <Image src="/images/xerv.png" width={57} height={15} alt="xerv" />
+        </Link>
+      </div>
       <div className={`container ${styles.container}`}>
         {data.map((footer, index) => (
           <div

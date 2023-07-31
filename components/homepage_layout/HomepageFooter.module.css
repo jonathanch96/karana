@@ -51,4 +51,6 @@
   position: absolute;
   bottom: 50px;
   left: 130px;
+  display: flex;
+  height: 19px;
 }
