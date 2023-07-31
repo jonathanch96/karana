@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Aubree",
+    "images": [
+      "/images/Aubree/1.png",
+      "/images/Aubree/2.png",
+      "/images/Aubree/3.png"
+    ],
+    "detail_images": [
+      "/images/Aubree/1.png",
+      "/images/Aubree/2.png",
+      "/images/Aubree/3.png"
+    ]
+  },
+  {
+    "title": "Bening's Clinic, Cibubur",
+    "images": [
+      "/images/Bening Cibubur/1.png",
+      "/images/Bening Cibubur/2.png",
+      "/images/Bening Cibubur/3.png"
+    ],
+    "detail_images": [
+      "/images/Bening Cibubur/1.png",
+      "/images/Bening Cibubur/2.png",
+      "/images/Bening Cibubur/3.png"
+    ]
+  },
+  {
+    "title": "Bening's Clinic, Gresik",
+    "images": [
+      "/images/Bening Gresik/1.png",
+      "/images/Bening Gresik/2.png",
+      "/images/Bening Gresik/3.png"
+    ],
+    "detail_images": [
+      "/images/Bening Gresik/1.png",
+      "/images/Bening Gresik/2.png",
+      "/images/Bening Gresik/3.png"
+    ]
+  },
+  {
+    "title": "Carbs & Co",
+    "images": [
+      "/images/Carbs & Co/1.png",
+      "/images/Carbs & Co/2.png",
+      "/images/Carbs & Co/3.png"
+    ],
+    "detail_images": [
+      "/images/Carbs & Co/1.png",
+      "/images/Carbs & Co/2.png",
+      "/images/Carbs & Co/3.png"
+    ]
+  }
+]

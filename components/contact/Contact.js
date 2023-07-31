@@ -15,7 +15,13 @@ const Contact = () => {
       <Content title="Contact">
         <div className={styles['container']}>
           <div className={styles['container-left']}>
-            <Textfield title="Email" description={contact.email} />
+            <Textfield
+              link={contact.email_link}
+              title="Email"
+              description={contact.email}
+              target="_blank"
+              rel="noopener noreferrer"
+            />
             <Textfield
               link={contact.wa_link}
               target="_blank"

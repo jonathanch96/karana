@@ -15,6 +15,7 @@ const HomepageLayout = ({ children }) => {
         <Link
           href={contact.wa_link}
           target="_blank"
+          rel="noopener noreferrer"
           className={styles['floating-link']}
         >
           <Image
