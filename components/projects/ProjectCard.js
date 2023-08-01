@@ -3,7 +3,7 @@ import styles from './ProjectCard.module.css'
 import ProjectQuickViewPortal from './ProjectQuickViewPortal'
 const ProjectCard = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false)
-  const dynamicImageUrl = encodeURIComponent(data.images.preview)
+  const dynamicImageUrl = data.images.preview
 
   const openModal = (index) => {
     setIsOpen(true)
@@ -21,6 +21,7 @@ const ProjectCard = ({ data }) => {
           backgroundImage: `url(${dynamicImageUrl})`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
         }}
       >
         <div className={styles['header']}>Quick View</div>

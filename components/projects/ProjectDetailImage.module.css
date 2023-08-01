@@ -12,8 +12,12 @@
 }
 .image {
   width: calc(33.33% - 6.66px);
+  object-fit: cover;
+  object-position: center;
 }
 
 .image-full {
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }

@@ -48,6 +48,8 @@ const ProjectQuickView = ({ data, isOpen, closeModal }) => {
                     height={626}
                     className={styles['image']}
                     alt="3d Model"
+                    objectFit="cover"
+                    objectPosition="center"
                   />
                 </div>
                 <div className={styles['detail-container']}>
