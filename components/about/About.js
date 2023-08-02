@@ -10,7 +10,7 @@ const About = () => {
         className={styles['image-background']}
         width={1440}
         height={1147}
-        src="/images/background_about.png"
+        src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029165/Icon/background_about_ppfko8.png"
       />
 
       <Content title="">
@@ -21,7 +21,7 @@ const About = () => {
       </Content>
       <div className={styles['image-container']}>
         <Image
-          src="/images/team.png"
+          src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029167/Icon/team_v67b03.png"
           alt="background"
           className={`${styles.image}`}
           width={1180}

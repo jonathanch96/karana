@@ -29,7 +29,9 @@ const Popup = ({ images, index, isOpen, closeModal }) => {
           height={20}
           alt="close"
           onClick={closeModal}
-          src={'/images/close.svg'}
+          src={
+            'https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029162/Icon/close_kroplr.svg'
+          }
           className={styles['close-icon']}
         />
         <Swiper

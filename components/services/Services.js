@@ -9,7 +9,7 @@ const Services = () => {
         className={styles['image-background']}
         width={591}
         height={663}
-        src="/images/background_services.png"
+        src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029162/Icon/background_services_pngzjj.png"
       />
       <Content title={`Product\nand Service`}>
         <div className={styles['container']}>

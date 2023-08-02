@@ -13,47 +13,47 @@
       "project": [
         {
           "name": "project_1",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901527/Bening%20Cibubur/main_1_zv3gwt.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901527/Bening%20Cibubur/main_1_zv3gwt.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901525/Bening%20Cibubur/additional_1_1_mqltm8.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/additional_1_2_xhormk.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901527/Bening%20Cibubur/additional_1_3_m6m94n.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901525/Bening%20Cibubur/additional_1_1_mqltm8.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/additional_1_2_xhormk.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901527/Bening%20Cibubur/additional_1_3_m6m94n.jpg"
           ]
         },
         {
           "name": "project_2",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/main_2_jffimc.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/main_2_jffimc.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/additional_2_1_czuvlc.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/additional_2_2_nx09zo.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901525/Bening%20Cibubur/additional_2_3_eiqbub.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/additional_2_1_czuvlc.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/additional_2_2_nx09zo.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901525/Bening%20Cibubur/additional_2_3_eiqbub.jpg"
           ]
         },
         {
           "name": "project_3",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901525/Bening%20Cibubur/main_3_foarrv.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901525/Bening%20Cibubur/main_3_foarrv.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901524/Bening%20Cibubur/additional_3_1_x5vx9q.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/additional_3_2_cjunba.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901525/Bening%20Cibubur/additional_3_3_u8ktrh.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901524/Bening%20Cibubur/additional_3_1_x5vx9q.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/additional_3_2_cjunba.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901525/Bening%20Cibubur/additional_3_3_u8ktrh.jpg"
           ]
         }
       ],
       "quick_view": [
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901527/Bening%20Cibubur/main_1_zv3gwt.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901525/Bening%20Cibubur/additional_1_1_mqltm8.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/additional_1_2_xhormk.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901527/Bening%20Cibubur/additional_1_3_m6m94n.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/main_2_jffimc.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/additional_2_1_czuvlc.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/additional_2_2_nx09zo.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901525/Bening%20Cibubur/additional_2_3_eiqbub.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901525/Bening%20Cibubur/main_3_foarrv.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901524/Bening%20Cibubur/additional_3_1_x5vx9q.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901526/Bening%20Cibubur/additional_3_2_cjunba.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901525/Bening%20Cibubur/additional_3_3_u8ktrh.jpg"
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901527/Bening%20Cibubur/main_1_zv3gwt.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901525/Bening%20Cibubur/additional_1_1_mqltm8.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/additional_1_2_xhormk.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901527/Bening%20Cibubur/additional_1_3_m6m94n.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/main_2_jffimc.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/additional_2_1_czuvlc.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/additional_2_2_nx09zo.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901525/Bening%20Cibubur/additional_2_3_eiqbub.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901525/Bening%20Cibubur/main_3_foarrv.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901524/Bening%20Cibubur/additional_3_1_x5vx9q.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901526/Bening%20Cibubur/additional_3_2_cjunba.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901525/Bening%20Cibubur/additional_3_3_u8ktrh.jpg"
       ],
-      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690901527/Bening%20Cibubur/main_1_zv3gwt.jpg"
+      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690901527/Bening%20Cibubur/main_1_zv3gwt.jpg"
     }
   },
   {
@@ -70,47 +70,47 @@
       "project": [
         {
           "name": "project_1",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/main_1_t6dysi.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/main_1_t6dysi.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Carbs%20and%20Co/additional_1_1_rl1apr.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Carbs%20and%20Co/additional_1_2_jw8npg.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Carbs%20and%20Co/additional_1_3_fjbzza.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Carbs%20and%20Co/additional_1_1_rl1apr.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Carbs%20and%20Co/additional_1_2_jw8npg.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Carbs%20and%20Co/additional_1_3_fjbzza.jpg"
           ]
         },
         {
           "name": "project_2",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902264/Carbs%20and%20Co/main_2_xvjpca.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902264/Carbs%20and%20Co/main_2_xvjpca.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Carbs%20and%20Co/additional_2_1_xnnjvc.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_2_2_ya4eln.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_2_3_ijrbtn.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Carbs%20and%20Co/additional_2_1_xnnjvc.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_2_2_ya4eln.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_2_3_ijrbtn.jpg"
           ]
         },
         {
           "name": "project_3",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902264/Carbs%20and%20Co/main_3_rf0rbn.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902264/Carbs%20and%20Co/main_3_rf0rbn.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_3_1_ysvwfm.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_3_2_yltbli.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_3_3_fdfgkm.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_3_1_ysvwfm.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_3_2_yltbli.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_3_3_fdfgkm.jpg"
           ]
         }
       ],
       "quick_view": [
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/main_1_t6dysi.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Carbs%20and%20Co/additional_1_1_rl1apr.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Carbs%20and%20Co/additional_1_2_jw8npg.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Carbs%20and%20Co/additional_1_3_fjbzza.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902264/Carbs%20and%20Co/main_2_xvjpca.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Carbs%20and%20Co/additional_2_1_xnnjvc.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_2_2_ya4eln.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_2_3_ijrbtn.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902264/Carbs%20and%20Co/main_3_rf0rbn.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_3_1_ysvwfm.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_3_2_yltbli.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/additional_3_3_fdfgkm.jpg"
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/main_1_t6dysi.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Carbs%20and%20Co/additional_1_1_rl1apr.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Carbs%20and%20Co/additional_1_2_jw8npg.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Carbs%20and%20Co/additional_1_3_fjbzza.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902264/Carbs%20and%20Co/main_2_xvjpca.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Carbs%20and%20Co/additional_2_1_xnnjvc.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_2_2_ya4eln.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_2_3_ijrbtn.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902264/Carbs%20and%20Co/main_3_rf0rbn.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_3_1_ysvwfm.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_3_2_yltbli.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/additional_3_3_fdfgkm.jpg"
       ],
-      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902263/Carbs%20and%20Co/main_1_t6dysi.jpg"
+      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902263/Carbs%20and%20Co/main_1_t6dysi.jpg"
     }
   },
   {
@@ -127,47 +127,47 @@
       "project": [
         {
           "name": "project_1",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/main_1_d6ncnr.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/main_1_d6ncnr.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bosscha%20Space/additional_1_1_mnocpk.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bosscha%20Space/additional_1_2_flcksp.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bosscha%20Space/additional_1_3_chhmoi.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bosscha%20Space/additional_1_1_mnocpk.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bosscha%20Space/additional_1_2_flcksp.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bosscha%20Space/additional_1_3_chhmoi.jpg"
           ]
         },
         {
           "name": "project_2",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Bosscha%20Space/main_2_mtrtll.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Bosscha%20Space/main_2_mtrtll.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902260/Bosscha%20Space/additional_2_1_rhsoak.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902260/Bosscha%20Space/additional_2_2_fspgct.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902260/Bosscha%20Space/additional_2_3_rxlexl.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902260/Bosscha%20Space/additional_2_1_rhsoak.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902260/Bosscha%20Space/additional_2_2_fspgct.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902260/Bosscha%20Space/additional_2_3_rxlexl.jpg"
           ]
         },
         {
           "name": "project_3",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Bosscha%20Space/main_3_jbvvlr.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Bosscha%20Space/main_3_jbvvlr.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/additional_3_1_hlpekh.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/additional_3_2_xsigok.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/additional_3_3_tho0ju.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/additional_3_1_hlpekh.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/additional_3_2_xsigok.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/additional_3_3_tho0ju.jpg"
           ]
         }
       ],
       "quick_view": [
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/main_1_d6ncnr.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bosscha%20Space/additional_1_1_mnocpk.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bosscha%20Space/additional_1_2_flcksp.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bosscha%20Space/additional_1_3_chhmoi.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Bosscha%20Space/main_2_mtrtll.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902260/Bosscha%20Space/additional_2_1_rhsoak.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902260/Bosscha%20Space/additional_2_2_fspgct.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902260/Bosscha%20Space/additional_2_3_rxlexl.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902262/Bosscha%20Space/main_3_jbvvlr.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/additional_3_1_hlpekh.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/additional_3_2_xsigok.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/additional_3_3_tho0ju.jpg"
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/main_1_d6ncnr.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bosscha%20Space/additional_1_1_mnocpk.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bosscha%20Space/additional_1_2_flcksp.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bosscha%20Space/additional_1_3_chhmoi.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Bosscha%20Space/main_2_mtrtll.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902260/Bosscha%20Space/additional_2_1_rhsoak.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902260/Bosscha%20Space/additional_2_2_fspgct.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902260/Bosscha%20Space/additional_2_3_rxlexl.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902262/Bosscha%20Space/main_3_jbvvlr.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/additional_3_1_hlpekh.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/additional_3_2_xsigok.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/additional_3_3_tho0ju.jpg"
       ],
-      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902261/Bosscha%20Space/main_1_d6ncnr.jpg"
+      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902261/Bosscha%20Space/main_1_d6ncnr.jpg"
     }
   },
   {
@@ -184,47 +184,47 @@
       "project": [
         {
           "name": "project_1",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909828/Bening%20Samarinda/main_1_dwgzvy.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909828/Bening%20Samarinda/main_1_dwgzvy.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909827/Bening%20Samarinda/additional_1_1_w9byt3.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909827/Bening%20Samarinda/additional_1_2_rlgkkz.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909847/Bening%20Samarinda/additional_1_3_f6yytv.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909827/Bening%20Samarinda/additional_1_1_w9byt3.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909827/Bening%20Samarinda/additional_1_2_rlgkkz.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909847/Bening%20Samarinda/additional_1_3_f6yytv.jpg"
           ]
         },
         {
           "name": "project_2",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909823/Bening%20Samarinda/main_2_e7ccag.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909823/Bening%20Samarinda/main_2_e7ccag.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909866/Bening%20Samarinda/additional_2_1_k9r63g.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909853/Bening%20Samarinda/additional_2_2_kotlvi.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909869/Bening%20Samarinda/additional_2_3_qu7s16.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909866/Bening%20Samarinda/additional_2_1_k9r63g.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909853/Bening%20Samarinda/additional_2_2_kotlvi.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909869/Bening%20Samarinda/additional_2_3_qu7s16.jpg"
           ]
         },
         {
           "name": "project_3",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909845/Bening%20Samarinda/main_3_erofik.png",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909845/Bening%20Samarinda/main_3_erofik.png",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909814/Bening%20Samarinda/additional_3_1_hoc3vb.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909864/Bening%20Samarinda/additional_3_2_wpf8mj.png",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909309/Bening%20Samarinda/additional_3_3_rxc7s4.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909814/Bening%20Samarinda/additional_3_1_hoc3vb.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909864/Bening%20Samarinda/additional_3_2_wpf8mj.png",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909309/Bening%20Samarinda/additional_3_3_rxc7s4.jpg"
           ]
         }
       ],
       "quick_view": [
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909828/Bening%20Samarinda/main_1_dwgzvy.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909827/Bening%20Samarinda/additional_1_1_w9byt3.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909827/Bening%20Samarinda/additional_1_2_rlgkkz.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909847/Bening%20Samarinda/additional_1_3_f6yytv.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909823/Bening%20Samarinda/main_2_e7ccag.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909866/Bening%20Samarinda/additional_2_1_k9r63g.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909853/Bening%20Samarinda/additional_2_2_kotlvi.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909869/Bening%20Samarinda/additional_2_3_qu7s16.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909845/Bening%20Samarinda/main_3_erofik.png",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909814/Bening%20Samarinda/additional_3_1_hoc3vb.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909864/Bening%20Samarinda/additional_3_2_wpf8mj.png",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909309/Bening%20Samarinda/additional_3_3_rxc7s4.jpg"
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909828/Bening%20Samarinda/main_1_dwgzvy.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909827/Bening%20Samarinda/additional_1_1_w9byt3.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909827/Bening%20Samarinda/additional_1_2_rlgkkz.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909847/Bening%20Samarinda/additional_1_3_f6yytv.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909823/Bening%20Samarinda/main_2_e7ccag.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909866/Bening%20Samarinda/additional_2_1_k9r63g.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909853/Bening%20Samarinda/additional_2_2_kotlvi.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909869/Bening%20Samarinda/additional_2_3_qu7s16.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909845/Bening%20Samarinda/main_3_erofik.png",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909814/Bening%20Samarinda/additional_3_1_hoc3vb.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909864/Bening%20Samarinda/additional_3_2_wpf8mj.png",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909309/Bening%20Samarinda/additional_3_3_rxc7s4.jpg"
       ],
-      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690909828/Bening%20Samarinda/main_1_dwgzvy.jpg"
+      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690909828/Bening%20Samarinda/main_1_dwgzvy.jpg"
     }
   },
   {
@@ -241,47 +241,47 @@
       "project": [
         {
           "name": "project_1",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/main_1_fphifn.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/main_1_fphifn.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_1_1_z353l5.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_1_2_bxlrm6.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_1_3_qnvi1b.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_1_1_z353l5.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_1_2_bxlrm6.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_1_3_qnvi1b.jpg"
           ]
         },
         {
           "name": "project_2",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bening%20Office/main_2_u7qtj6.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bening%20Office/main_2_u7qtj6.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_2_1_fotmau.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_2_2_f1i2di.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/additional_2_3_gthsny.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_2_1_fotmau.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_2_2_f1i2di.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/additional_2_3_gthsny.jpg"
           ]
         },
         {
           "name": "project_3",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bening%20Office/main_3_jkgyvq.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bening%20Office/main_3_jkgyvq.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/additional_3_1_b6dycu.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/additional_3_2_g7un3k.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/additional_3_3_ujxfpz.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/additional_3_1_b6dycu.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/additional_3_2_g7un3k.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/additional_3_3_ujxfpz.jpg"
           ]
         }
       ],
       "quick_view": [
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/main_1_fphifn.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_1_1_z353l5.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_1_2_bxlrm6.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_1_3_qnvi1b.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bening%20Office/main_2_u7qtj6.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_2_1_fotmau.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902257/Bening%20Office/additional_2_2_f1i2di.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/additional_2_3_gthsny.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902259/Bening%20Office/main_3_jkgyvq.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/additional_3_1_b6dycu.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/additional_3_2_g7un3k.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/additional_3_3_ujxfpz.jpg"
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/main_1_fphifn.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_1_1_z353l5.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_1_2_bxlrm6.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_1_3_qnvi1b.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bening%20Office/main_2_u7qtj6.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_2_1_fotmau.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902257/Bening%20Office/additional_2_2_f1i2di.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/additional_2_3_gthsny.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902259/Bening%20Office/main_3_jkgyvq.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/additional_3_1_b6dycu.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/additional_3_2_g7un3k.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/additional_3_3_ujxfpz.jpg"
       ],
-      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902258/Bening%20Office/main_1_fphifn.jpg"
+      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902258/Bening%20Office/main_1_fphifn.jpg"
     }
   },
   {
@@ -298,47 +298,47 @@
       "project": [
         {
           "name": "project_1",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/main_1_biwklk.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/main_1_biwklk.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_1_1_nlzh5h.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_1_2_tztnoi.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_1_3_g1k0fh.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_1_1_nlzh5h.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_1_2_tztnoi.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_1_3_g1k0fh.jpg"
           ]
         },
         {
           "name": "project_2",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/main_2_rzdjkm.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/main_2_rzdjkm.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_2_1_kilinj.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_2_2_ksty2j.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_2_3_zm2h2y.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_2_1_kilinj.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_2_2_ksty2j.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_2_3_zm2h2y.jpg"
           ]
         },
         {
           "name": "project_3",
-          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/main_3_vayqgj.jpg",
+          "main_images": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/main_3_vayqgj.jpg",
           "additional_images": [
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/additional_3_1_zyggvo.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/additional_3_2_yqndxo.jpg",
-            "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/additional_3_3_lxzurn.jpg"
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/additional_3_1_zyggvo.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/additional_3_2_yqndxo.jpg",
+            "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/additional_3_3_lxzurn.jpg"
           ]
         }
       ],
       "quick_view": [
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/main_1_biwklk.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_1_1_nlzh5h.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_1_2_tztnoi.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_1_3_g1k0fh.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/main_2_rzdjkm.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_2_1_kilinj.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_2_2_ksty2j.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902255/Bening%20Gresik/additional_2_3_zm2h2y.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/main_3_vayqgj.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/additional_3_1_zyggvo.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/additional_3_2_yqndxo.jpg",
-        "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/additional_3_3_lxzurn.jpg"
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/main_1_biwklk.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_1_1_nlzh5h.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_1_2_tztnoi.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_1_3_g1k0fh.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/main_2_rzdjkm.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_2_1_kilinj.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_2_2_ksty2j.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902255/Bening%20Gresik/additional_2_3_zm2h2y.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/main_3_vayqgj.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/additional_3_1_zyggvo.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/additional_3_2_yqndxo.jpg",
+        "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/additional_3_3_lxzurn.jpg"
       ],
-      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/v1690902256/Bening%20Gresik/main_1_biwklk.jpg"
+      "preview": "https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1690902256/Bening%20Gresik/main_1_biwklk.jpg"
     }
   }
 ]

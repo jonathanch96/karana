@@ -10,7 +10,7 @@ const Contact = () => {
         className={styles['image-background']}
         width={528}
         height={731}
-        src="/images/background_contact.png"
+        src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029162/Icon/background_contact_z594v2.png"
       />
       <Content title="Contact">
         <div className={styles['container']}>
@@ -45,7 +45,7 @@ const Contact = () => {
             />
             <a href={contact.maps_link} target="_blank">
               <Image
-                src="/images/map.png"
+                src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029165/Icon/map_u2fafx.png"
                 className={styles['image']}
                 width={406}
                 height={235}

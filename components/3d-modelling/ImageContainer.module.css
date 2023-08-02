@@ -26,5 +26,6 @@
 }
 .image {
   width: 33.33%;
-  height: auto;
+  height: 480px;
+  object-fit: cover;
 }

@@ -48,7 +48,7 @@ const ProjectDetail = () => {
         className={styles['image-background']}
         width={1440}
         height={4064}
-        src="/images/background_detail.png"
+        src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029163/Icon/background_detail_gblxpy.png"
       />
       <div className={styles['container']}>
         <div className={styles['project-description-container']}>

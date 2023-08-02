@@ -18,7 +18,9 @@ const Layout = ({ children }) => {
           className={styles['floating-link']}
         >
           <Image
-            src={'/images/whatsapp.png'}
+            src={
+              'https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029164/Icon/whatsapp_njz4km.png'
+            }
             width={75}
             height={75}
             alt="Whatsapp"

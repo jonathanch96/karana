@@ -32,3 +32,21 @@
 .container:hover .footer {
   color: white;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: calc(100% - 20px);
+  }
+}

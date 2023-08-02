@@ -12,12 +12,24 @@ import './ProjectQuickView.css'
 
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import Textfield from '../shared/Textfield'
 import Link from 'next/link'
 
 const ProjectQuickView = ({ data, isOpen, closeModal }) => {
   const swiperRef = useRef(null)
+  const [backgroundPosition, setBackgroundPosition] = useState('0% 0%')
+  const handleMouseMove = (e) => {
+    // Calculate the X and Y positions based on the mouse pointer's coordinates within the container
+    const { left, top, width, height } = e.target.getBoundingClientRect()
+
+    const x = ((e.pageX - left) / width) * 100
+    const y = ((e.pageY - top) / height) * 100
+
+    // Set the new background position based on the mouse position
+    setBackgroundPosition(`${x}% ${y}%`)
+  }
+
   return (
     isOpen && (
       <div className={`${styles['container']} ProjectQuickView`}>
@@ -26,7 +38,9 @@ const ProjectQuickView = ({ data, isOpen, closeModal }) => {
           height={20}
           alt="close"
           onClick={closeModal}
-          src={'images/close.svg'}
+          src={
+            'https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029162/Icon/close_kroplr.svg'
+          }
           className={styles['close-icon']}
         />
         <Swiper
@@ -41,7 +55,10 @@ const ProjectQuickView = ({ data, isOpen, closeModal }) => {
           {data.images.quick_view.map((image, index) => (
             <SwiperSlide key={'quickview' + index}>
               <div className={styles['content-container']}>
-                <div className={styles['image-container']}>
+                <div
+                  className={styles['image-container']}
+                  onMouseMove={handleMouseMove}
+                >
                   <Image
                     src={image}
                     width={940}
@@ -50,6 +67,14 @@ const ProjectQuickView = ({ data, isOpen, closeModal }) => {
                     alt="3d Model"
                     objectFit="cover"
                     objectPosition="center"
+                  />
+                  <div
+                    className={`${styles['image-zoom']} ${styles['background-image']}`}
+                    style={{
+                      backgroundImage: `url(${image})`,
+                      backgroundPosition: backgroundPosition,
+                    }}
+                    alt="3d Model"
                   />
                 </div>
                 <div className={styles['detail-container']}>

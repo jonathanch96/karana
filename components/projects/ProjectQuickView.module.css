@@ -12,7 +12,8 @@
 }
 .content-container {
   width: fit-content;
-  min-width: 65%;
+  min-width: 80%;
+  max-width: 80%;
   height: 40vw;
   background-color: white;
   margin: 0 auto;
@@ -20,9 +21,12 @@
   gap: 40px;
 }
 .image-container {
-  min-width: 60%;
+  min-width: 58%;
+  max-width: 58%;
   display: flex;
-  align-items: center;
+  align-items: start;
+  overflow: hidden;
+  padding: 10px;
 }
 .detail-container {
   min-width: 40%;
@@ -33,10 +37,23 @@
   top: 11px;
   right: 12px;
 }
+.image-container:hover .image {
+  display: none;
+}
+.image-container:hover .image-zoom {
+  display: block;
+}
 .image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.image-zoom {
   width: 100%;
   height: 100%;
   padding: 10px;
+  transform: scale(1.5);
+  display: none;
 }
 .title {
   color: #000;

@@ -17,6 +17,7 @@ import InstagramContainer from './instagram/InstagramContainer'
 import banner from '../../data/banner.json'
 
 import data from '../../data/home.json'
+import contact from '../../data/contact.json'
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
         alt="Background Image"
         width={1440}
         height={7681}
-        src="/images/background_home.png"
+        src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029165/Icon/background_home_wyqd84.png"
       />
       <div className={`Home ${styles['container']}`}>
         <Swiper
@@ -89,8 +90,12 @@ const Home = () => {
         <div className={styles['content-container']}>
           <div className={styles['instagram']}>
             follow{' '}
-            <a className={styles['instagram-link']} href="">
-              @karana.buraeu
+            <a
+              className={styles['instagram-link']}
+              href={contact.instagram_link}
+              target="_blank"
+            >
+              {contact.instagram_text}
             </a>
           </div>
         </div>

@@ -5,4 +5,5 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 3px;
+  overflow-x: hidden;
 }

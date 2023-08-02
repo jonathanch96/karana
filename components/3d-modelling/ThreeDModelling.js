@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import ImageContainer from './ImageContainer'
 import styles from './ThreeDModelling.module.css'
-
+import data from '../../data/3d-modelling.json'
 const ThreeDModelling = () => {
   return (
     <div className={styles['container-background']}>
@@ -11,48 +11,12 @@ const ThreeDModelling = () => {
         layout="fill"
         objectFit="cover"
         objectPosition="top center"
-        src="/images/background.png"
+        src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029165/Icon/background_mfgw23.png"
       />
       <div className={styles['container']}>
-        <ImageContainer
-          title="Bening's Clinic Cibubur"
-          images={[
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-          ]}
-          detailImages={[
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-          ]}
-        />
-        <ImageContainer
-          title="Bening's Clinic Cibubur"
-          images={[
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-          ]}
-          detailImages={[
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-          ]}
-        />
-        <ImageContainer
-          title="Bening's Clinic Cibubur"
-          images={[
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1.png",
-          ]}
-          detailImages={[
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-            "/images/3d-modelling/Bening's Clinic Cibubur/1_detail.png",
-          ]}
-        />
+        {data.map((d) => (
+          <ImageContainer key={d.title} title={d.title} images={d.images} />
+        ))}
       </div>
     </div>
   )

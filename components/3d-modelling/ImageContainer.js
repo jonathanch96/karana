@@ -3,7 +3,7 @@ import styles from './ImageContainer.module.css'
 import { useState } from 'react'
 import PopupPortal from './PopupPortal'
 
-const ImageContainer = ({ title, images, detailImages }) => {
+const ImageContainer = ({ title, images }) => {
   const [isOpen, setIsOpen] = useState(false)
   const [index, setIndex] = useState(0)
 
@@ -20,7 +20,7 @@ const ImageContainer = ({ title, images, detailImages }) => {
     <>
       <PopupPortal
         isOpen={isOpen}
-        images={detailImages}
+        images={images}
         index={index}
         closeModal={closeModal}
       />

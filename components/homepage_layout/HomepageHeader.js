@@ -23,7 +23,7 @@ const HomepageHeader = () => {
       <div className={`container ${styles.container}`}>
         <Link className={`navbar-brand ${styles['navbar-brand']}`} href="/">
           <Image
-            src="/images/logo_white.png"
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029163/Icon/logo_white_x0yiyk.png"
             alt="Logo"
             width={200}
             height={29}
