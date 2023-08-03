@@ -52,3 +52,9 @@
   width: 100%;
   top: 395px;
 }
+
+@media (max-width: 1280px) {
+  .content-container {
+    width: 100%;
+  }
+}

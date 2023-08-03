@@ -20,10 +20,11 @@ const HomepageHeader = () => {
 
   return (
     <nav className={`navbar navbar-expand-lg ${styles['navbar']}`}>
+      <div className={`${styles.overlay}`}></div>
       <div className={`container ${styles.container}`}>
         <Link className={`navbar-brand ${styles['navbar-brand']}`} href="/">
           <Image
-            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029163/Icon/logo_white_x0yiyk.png"
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/v1691029163/Icon/logo_white_x0yiyk.png"
             alt="Logo"
             width={200}
             height={29}

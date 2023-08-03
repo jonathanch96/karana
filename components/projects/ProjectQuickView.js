@@ -30,6 +30,11 @@ const ProjectQuickView = ({ data, isOpen, closeModal }) => {
     setBackgroundPosition(`${x}% ${y}%`)
   }
 
+  const quick_view = []
+  data.images.project.forEach((image) => {
+    quick_view.push(image.main_images, ...image.additional_images)
+  })
+
   return (
     isOpen && (
       <div className={`${styles['container']} ProjectQuickView`}>
@@ -52,7 +57,7 @@ const ProjectQuickView = ({ data, isOpen, closeModal }) => {
           className="mySwiper"
           ref={swiperRef}
         >
-          {data.images.quick_view.map((image, index) => (
+          {quick_view.map((image, index) => (
             <SwiperSlide key={'quickview' + index}>
               <div className={styles['content-container']}>
                 <div

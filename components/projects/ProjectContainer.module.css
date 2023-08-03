@@ -8,13 +8,34 @@
 }
 .content-container {
   width: 100%;
-}
-.content-container {
   gap: 20px;
 }
+
 .filter-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
   min-width: 265px;
+}
+@media (max-width: 1024px) {
+  .filter-container {
+    min-width: 160px;
+    max-width: 160px;
+  }
+}
+@media (max-width: 1024px) {
+  .filter-container {
+    display: none;
+  }
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 512px) {
+  .filter-container {
+    display: none;
+    margin-bottom: 64px;
+    justify-content: center;
+  }
 }

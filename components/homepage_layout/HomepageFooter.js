@@ -9,7 +9,7 @@ const HomepageFooter = () => {
     <footer className={`py-4 ${styles.footer}`}>
       <div className={`${styles['img-container']}`}>
         <Image
-          src="/images/footer.png"
+          src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029163/Icon/footer_nhdx2z.png"
           alt="background"
           className={`${styles.image}`}
           width={1440}
@@ -18,7 +18,7 @@ const HomepageFooter = () => {
       </div>
       <div className={styles['watermark']}>
         <Image
-          src="/images/designed_by.png"
+          src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029162/Icon/designed_by_o7qg7h.png"
           width={66}
           height={13}
           style={{ marginRight: '10px', alignSelf: 'end' }}
@@ -27,7 +27,7 @@ const HomepageFooter = () => {
         <Link href={contact.dassein} target="_blank">
           <Image
             style={{ marginRight: '15px' }}
-            src="/images/dassein.png"
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029162/Icon/dassein_qg6pur.png"
             width={60}
             height={15}
             alt="dassein"
@@ -35,14 +35,19 @@ const HomepageFooter = () => {
         </Link>
         <Image
           style={{ marginRight: '15px', alignSelf: 'end' }}
-          src="/images/powered_by.png"
+          src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029163/Icon/powered_by_pur8gs.png"
           width={78}
           height={15}
           alt="powered by"
         />
         <Link href={contact.xerv} target="_blank">
           {' '}
-          <Image src="/images/xerv.png" width={57} height={15} alt="xerv" />
+          <Image
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029164/Icon/xerv_bfvwjg.png"
+            width={57}
+            height={15}
+            alt="xerv"
+          />
         </Link>
       </div>
       <div className={`container ${styles.container}`}>
