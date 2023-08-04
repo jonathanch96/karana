@@ -58,3 +58,15 @@
     width: 100%;
   }
 }
+@media (max-width: 576px) {
+  .content-container {
+    margin: 64px auto;
+    font-size: 16px;
+  }
+  .content-2 {
+    font-size: 16px;
+  }
+  .instagram-link {
+    font-size: 16px;
+  }
+}

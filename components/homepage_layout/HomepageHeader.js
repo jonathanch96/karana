@@ -31,13 +31,13 @@ const HomepageHeader = () => {
           />
         </Link>
         <button
-          className="navbar-toggler"
+          className={`navbar-toggler ${styles['navbar-toggler']}`}
           type="button"
           onClick={toggleNav}
           aria-expanded={isNavOpen}
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className={`navbar-toggler-icon ${styles['navbar-toggler-icon']}`}></span>
         </button>
 
         <div

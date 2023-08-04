@@ -5,10 +5,11 @@ import styles from './HomepageLayout.module.css'
 import Link from 'next/link'
 import contact from '../../data/contact.json'
 import Image from 'next/image'
+import './HomepageLayout.css'
 
 const HomepageLayout = ({ children }) => {
   return (
-    <>
+    <div className='HomepageLayout'>
       <HomepageHeader />
       <main className={`${styles['main']}`}>
         {children}
@@ -28,7 +29,7 @@ const HomepageLayout = ({ children }) => {
         </Link>
       </main>
       <HomepageFooter />
-    </>
+    </div>
   )
 }
 

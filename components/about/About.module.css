@@ -46,3 +46,35 @@
   height: auto;
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  .team-container {
+    flex-wrap: wrap;
+  }
+  .image-container {
+    margin-bottom: 64px;
+  }
+  .image {
+    padding: 0 70px;
+  }
+  .team-item {
+    width: calc(50% - 80px);
+  }
+}
+
+@media (max-width: 576px) {
+  .team-item {
+    width: 100%;
+  }
+  .image {
+    padding: 0 20px;
+  }
+}

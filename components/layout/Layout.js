@@ -5,9 +5,10 @@ import styles from './Layout.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import contact from '../../data/contact.json'
+import './Layout.css'
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className='Layout'>
       <Header />
       <main className={`${styles['main']}`}>
         {children}
@@ -30,7 +31,7 @@ const Layout = ({ children }) => {
       </main>
       <div id="modal-root"></div>
       <Footer />
-    </>
+    </div>
   )
 }
 
