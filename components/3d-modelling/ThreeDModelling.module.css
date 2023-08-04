@@ -11,6 +11,7 @@
   top: 350px;
   position: absolute;
   height: auto;
+  max-height: 100%;
 }
 .container-background {
   position: relative;

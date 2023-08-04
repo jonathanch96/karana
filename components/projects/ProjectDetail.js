@@ -1,20 +1,11 @@
 import Image from 'next/image'
 import styles from './ProjectDetail.module.css'
 import ProjectDetailImage from './ProjectDetailImage'
-import projects from '../../data/projects.json'
-import { useRouter } from 'next/router'
 import Error from 'next/error'
 import PopupPortal from '../3d-modelling/PopupPortal'
 import { useState } from 'react'
-const ProjectDetail = () => {
-  const router = useRouter()
-  const { id } = router.query
-
-  // Find the project data in the projects array
-  const project = projects.find((project) => project.link === `/projects/${id}`)
-
+const ProjectDetail = ({ project }) => {
   if (!project) {
-    // Project not found, return a 404 page
     return <Error statusCode={404} />
   }
 

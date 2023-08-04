@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import styles from './ProjectCard.module.css'
 import ProjectQuickViewPortal from './ProjectQuickViewPortal'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 const ProjectCard = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false)
   const dynamicImageUrl = data.images.preview
 
-  const openModal = (index) => {
+  const openModal = (e) => {
+    e.preventDefault()
     setIsOpen(true)
   }
 
@@ -15,7 +18,6 @@ const ProjectCard = ({ data }) => {
   return (
     <>
       <div
-        onClick={openModal}
         className={`${styles['container']} col-lg-3 col-md-4 col-sm-6 col-12`}
         style={{
           backgroundImage: `url(${dynamicImageUrl})`,
@@ -24,8 +26,12 @@ const ProjectCard = ({ data }) => {
           backgroundPosition: 'center',
         }}
       >
-        <div className={styles['header']}>Quick View</div>
-        <div className={styles['footer']}>{data.title}</div>
+        <div onClick={openModal} className={styles['header']}>
+          Quick View
+        </div>
+        <Link className={styles.link} href={data.link}>
+          <div className={styles['footer']}>{data.title}</div>
+        </Link>
       </div>
       <ProjectQuickViewPortal
         data={data}
