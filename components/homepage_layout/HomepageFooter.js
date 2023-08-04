@@ -17,38 +17,23 @@ const HomepageFooter = () => {
         />
       </div>
       <div className={styles['watermark']}>
-        <Image
-          src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029162/Icon/designed_by_o7qg7h.png"
-          width={66}
-          height={13}
-          style={{ marginRight: '10px', alignSelf: 'end' }}
-          alt="designed by"
-        />
         <Link href={contact.dassein} target="_blank">
           <Image
             style={{ marginRight: '15px' }}
-            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029162/Icon/dassein_qg6pur.png"
-            width={60}
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691165246/Icon/11._Design_by_Dassein_t33qfl.svg"
+            width={141}
             height={15}
             alt="dassein"
           />
         </Link>
-        <Image
-          style={{ marginRight: '15px', alignSelf: 'end' }}
-          src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029163/Icon/powered_by_pur8gs.png"
-          width={78}
-          height={15}
-          alt="powered by"
-        />
         <Link href={contact.xerv} target="_blank">
-          {' '}
           <Image
-            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029164/Icon/xerv_bfvwjg.png"
-            width={57}
-            height={15}
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691165245/Icon/12._Powered_by_Xerv_ezriia.svg"
+            width={136}
+            height={18}
             alt="xerv"
           />
-        </Link>
+        </Link>{' '}
       </div>
       <div className={`container ${styles.container}`}>
         {data.map((footer, index) => (

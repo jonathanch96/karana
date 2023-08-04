@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 189px 50px 0 50px;
+  padding: 100px 50px 0 50px;
   justify-content: center;
   align-items: center;
   z-index: 10;
@@ -12,6 +12,7 @@
   position: absolute;
   height: auto;
   max-height: 100%;
+  opacity: 0.3;
 }
 .container-background {
   position: relative;

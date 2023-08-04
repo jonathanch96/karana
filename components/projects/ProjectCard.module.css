@@ -2,7 +2,7 @@
   height: 350px;
   background-size: cover;
   background-position: center;
-  width: calc(25% - 20px);
+  width: calc(33.33% - 20px);
   color: #000;
   text-align: center;
   font-family: Space Grotesk;
@@ -39,12 +39,6 @@
 }
 
 @media (max-width: 1024px) {
-  .container {
-    width: calc(33.33% - 20px);
-  }
-}
-
-@media (max-width: 768px) {
   .container {
     width: calc(50% - 20px);
   }

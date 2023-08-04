@@ -8,7 +8,7 @@ import contact from '../../data/contact.json'
 import './Layout.css'
 const Layout = ({ children }) => {
   return (
-    <div className='Layout'>
+    <div className="Layout">
       <Header />
       <main className={`${styles['main']}`}>
         {children}
@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
         >
           <Image
             src={
-              'https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029164/Icon/whatsapp_njz4km.png'
+              'https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691165245/Icon/whatsapp_uxytz3.svg'
             }
             width={75}
             height={75}

@@ -3,6 +3,7 @@
   position: absolute;
   height: auto;
   max-height: 100%;
+  opacity: 0.3;
 }
 .container {
   display: flex;
@@ -35,6 +36,7 @@
   }
   .image-background {
     width: 100%;
+    opacity: 0.3;
     max-height: 100%;
   }
   .address {

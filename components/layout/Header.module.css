@@ -1,12 +1,13 @@
 .navbar-nav {
+  margin-left: auto;
   gap: 42px;
 }
 .navbar {
-  padding: 40px 50px;
+  padding: 20px 50px 40px;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #ffffff;
   transition: transform 0.3s ease;
   z-index: 999;

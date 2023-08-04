@@ -45,7 +45,7 @@
   }
   .images-2 {
     height: 160px;
-    width: 50%;
+    width: calc(50% - 5px);
     object-fit: cover;
     object-position: center center;
   }

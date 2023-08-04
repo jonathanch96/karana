@@ -25,7 +25,7 @@ const HomepageHeader = () => {
         <Link className={`navbar-brand ${styles['navbar-brand']}`} href="/">
           <Image
             className={`${styles['logo']}`}
-            src="https://res.cloudinary.com/dsqneisaz/image/upload/v1691029163/Icon/logo_white_x0yiyk.png"
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691165245/Icon/logo_white_cft8s8.svg"
             alt="Logo"
             width={200}
             height={29}

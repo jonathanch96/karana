@@ -16,7 +16,7 @@
   text-transform: capitalize;
   margin-bottom: 50px;
   padding-bottom: 43px;
-  width: 100%;
+  width: 60%;
   border-bottom: 1px solid #376e8e;
 }
 .image-container {
@@ -36,7 +36,7 @@
   }
   .image {
     width: 100%;
-    height: auto  ;
+    height: auto;
     object-fit: cover;
   }
 }
