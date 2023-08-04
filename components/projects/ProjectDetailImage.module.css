@@ -21,3 +21,14 @@
   object-fit: cover;
   object-position: center;
 }
+
+@media (max-width: 576px) {
+  .image-container {
+    flex-direction: column;
+  }
+  .image,
+  .image-full {
+    width: 100%;
+    height: calc(100vw - 100px);
+  }
+}

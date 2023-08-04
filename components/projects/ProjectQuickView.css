@@ -7,3 +7,10 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media (max-width: 768px) {
+  .ProjectQuickView .swiper-pagination {
+    margin-left: 12%;
+  }
+}
+
