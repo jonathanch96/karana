@@ -24,6 +24,7 @@ const HomepageHeader = () => {
       <div className={`container ${styles.container}`}>
         <Link className={`navbar-brand ${styles['navbar-brand']}`} href="/">
           <Image
+            className={`${styles['logo']}`}
             src="https://res.cloudinary.com/dsqneisaz/image/upload/v1691029163/Icon/logo_white_x0yiyk.png"
             alt="Logo"
             width={200}
@@ -37,7 +38,9 @@ const HomepageHeader = () => {
           aria-expanded={isNavOpen}
           aria-label="Toggle navigation"
         >
-          <span className={`navbar-toggler-icon ${styles['navbar-toggler-icon']}`}></span>
+          <span
+            className={`navbar-toggler-icon ${styles['navbar-toggler-icon']}`}
+          ></span>
         </button>
 
         <div

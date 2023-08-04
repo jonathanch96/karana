@@ -19,8 +19,26 @@
 }
 .image {
   height: auto;
-  width: 406px;
+  width: 100%;
 }
 .address {
   width: 253px;
+}
+@media (max-width: 1024px) {
+  .container {
+    padding: 50px 25px 64px;
+  }
+  .container {
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .image-background {
+    width: 100%;
+  }
+  .address {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+
 }

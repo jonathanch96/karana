@@ -93,3 +93,15 @@
     height: 50px;
   }
 }
+
+@media (max-width: 328px) {
+  .navbar {
+    padding: 10px 10px;
+    opacity: 1;
+    height: 50px;
+  }
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+}

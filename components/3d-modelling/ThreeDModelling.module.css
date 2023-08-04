@@ -15,3 +15,14 @@
 .container-background {
   position: relative;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 96px 25px 0 25px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 48px 12px 0 12px;
+  }
+}

@@ -47,6 +47,9 @@
 
 @media (max-width: 576px) {
   .container {
-    width: calc(100% - 20px);
+    width: 100%;
   }
+}
+
+@media (max-width: 328px) {
 }
