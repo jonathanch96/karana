@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className={`py-4 ${styles.footer}`}>
       <div className={`${styles['img-container']}`}>
         <Image
-          src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691029163/Icon/footer_nhdx2z.png"
+          src="https://res.cloudinary.com/dsqneisaz/image/upload/v1691029163/Icon/footer_nhdx2z.png"
           alt="background"
           className={`${styles.image}`}
           width={1440}
@@ -28,7 +28,7 @@ const Footer = () => {
 
         <Link href={contact.xerv} target="_blank">
           <Image
-            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691165245/Icon/12._Powered_by_Xerv_ezriia.svg"
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/v1691165245/Icon/12._Powered_by_Xerv_ezriia.svg"
             width={136}
             height={18}
             alt="xerv"

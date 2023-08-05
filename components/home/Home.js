@@ -57,14 +57,18 @@ const Home = () => {
 
         <HomeContent type="left" data={data[0]} />
 
-        <div className={styles['content-container']}>
+        <div
+          className={styles['content-container']}
+          style={{ maxWidth: '90%' }}
+        >
           Karana adalah sebuah perusahaan dibidang Arstitektur, Konstruksi
-          Bangunan dan Desain Interior. Maksud pendiriannya adalah untuk
-          memberikan jasa-jasa pekerjaan dibidang Rancang Bangun Konstruksi
-          serta interior yang diperuntukan untuk menunjang pembangunan Rumah
-          tinggal, Fasilitas Komersial, dan Perkantoran, yang meliputi konsultan
-          bangunan, bangunan interior, mechanical electrical, dan eksterior
-          bangunan.
+          Bangunan dan Desain Interior.
+          <br />
+          Maksud pendiriannya adalah untuk memberikan jasa-jasa pekerjaan
+          dibidang Rancang Bangun Konstruksi serta interior yang diperuntukan
+          untuk menunjang pembangunan Rumah tinggal, Fasilitas Komersial, dan
+          Perkantoran, yang meliputi konsultan bangunan, bangunan interior,
+          mechanical electrical, dan eksterior bangunan.
         </div>
         <HomeContent type="right" data={data[1]} />
         <div className={styles['content-container']}>
