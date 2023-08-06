@@ -7,7 +7,12 @@ const InstagramContainer = () => {
   return (
     <div className={styles['container']}>
       {data.map((instagram, index) => (
-        <Link key={'instagram' + index} target="_blank" href={instagram.link}>
+        <Link
+          key={'instagram' + index}
+          target="_blank"
+          className={styles['link']}
+          href={instagram.link}
+        >
           <Image
             className={styles['image']}
             width={340}

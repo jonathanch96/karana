@@ -1,5 +1,9 @@
 .Layout .collapse.navbar-collapse.show {
   background-color: white;
   padding: 20px;
+  box-shadow: 0 6px 15px 0px rgba(0, 0, 0, 0.14);
   margin-top: 20px;
+}
+.Layout .navbar-toggler:focus {
+  box-shadow: none;
 }

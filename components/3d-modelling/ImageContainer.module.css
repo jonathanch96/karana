@@ -26,8 +26,9 @@
 }
 .image {
   width: 33.33%;
-  height: 480px;
+  height: auto;
   object-fit: cover;
+  aspect-ratio: 1 /1;
 }
 
 @media (max-width: 768px) {

@@ -10,12 +10,10 @@
   width: 100vw;
   background-color: #ffffff;
   transition: transform 0.3s ease;
-  z-index: 999;
+  z-index: 1002;
   background: transparent;
   box-sizing: border-box;
-  height: 120px;
   background: linear-gradient(180deg, #000 0%, rgba(217, 217, 217, 0) 100%);
-  opacity: 0.7;
 }
 
 .nav-link {
@@ -23,6 +21,7 @@
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
+  white-space: nowrap;
 }
 
 .active {
@@ -53,6 +52,9 @@
 
 .navbar-brand {
   width: 28%;
+}
+.navbar-toggler {
+  margin-left: auto;
 }
 @media (max-width: 1280px) {
   .navbar-nav {
@@ -86,7 +88,7 @@
 
 @media (max-width: 576px) {
   .navbar {
-    padding: 10px 25px;
+    padding: 10px 25px 60px;
     opacity: 1;
     height: 50px;
   }
@@ -94,9 +96,7 @@
 
 @media (max-width: 328px) {
   .navbar {
-    padding: 10px 10px;
-    opacity: 1;
-    height: 50px;
+    padding: 10px 10px 68px;
   }
   .logo {
     width: 150px;

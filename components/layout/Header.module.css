@@ -10,7 +10,7 @@
   width: 100vw;
   background-color: #ffffff;
   transition: transform 0.3s ease;
-  z-index: 999;
+  z-index: 1002;
   box-sizing: border-box;
   height: 120px;
 }
@@ -19,6 +19,7 @@
   color: #000;
   text-transform: uppercase;
   letter-spacing: 3px;
+  white-space: nowrap;
 }
 .active {
   color: #000;
@@ -43,6 +44,9 @@
 .nav-link-active {
   font-weight: 700;
 }
+.navbar-toggler {
+  margin-left: auto;
+}
 
 @media (max-width: 1280px) {
   .navbar-nav {
@@ -58,17 +62,17 @@
 
 @media (max-width: 576px) {
   .navbar {
-    padding: 10px 25px;
+    padding: 10px 12px 20px;
     opacity: 1;
-    height: 50px;
+    height: 70px;
   }
 }
 
 @media (max-width: 328px) {
   .navbar {
-    padding: 10px 10px;
+    padding: 10px 10px 20px;
     opacity: 1;
-    height: 50px;
+    height: 70px;
   }
   .logo {
     width: 150px;

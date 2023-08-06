@@ -28,11 +28,18 @@
   }
   .filter-container {
     width: 100%;
-    max-width: auto;
-    padding: 10px;
+    max-width: fit-content;
   }
   .content-container {
     align-self: center;
+  }
+}
+@media (max-width: 576px) {
+  .filter-container {
+    padding-top: 50px;
+  }
+  .container {
+    padding: 0 12px;
   }
 }
 @media (max-width: 512px) {

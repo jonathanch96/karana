@@ -11,3 +11,30 @@
   left: 90%;
   display: inline-block;
 }
+
+@media (max-width: 856px) {
+  .floating-link {
+    left: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .floating-link {
+    left: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .floating-link {
+    left: 75%;
+  }
+}
+@media (max-width: 400px) {
+  .floating-link {
+    left: 70%;
+  }
+}
+
+@media (max-width: 328px) {
+  .floating-link {
+    left: 65%;
+  }
+}
