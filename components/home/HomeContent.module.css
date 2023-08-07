@@ -14,6 +14,7 @@
   box-sizing: border-box;
   overflow-x: auto;
   z-index: 10;
+  height: 1080px;
 }
 .images {
   width: 100%;
@@ -31,6 +32,7 @@
 @media (max-width: 576px) {
   .container {
     flex-wrap: wrap;
+    height: auto;
   }
   .content-left {
     width: 100%;

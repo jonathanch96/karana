@@ -7,7 +7,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
+  height: 120px;
   background-color: #ffffff;
   transition: transform 0.3s ease;
   z-index: 1002;
@@ -21,7 +22,6 @@
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
-  white-space: nowrap;
 }
 
 .active {
@@ -85,10 +85,15 @@
     gap: 12px;
   }
 }
+@media (max-width: 992px) {
+  .navbar {
+    align-items: start;
+  }
+}
 
 @media (max-width: 576px) {
   .navbar {
-    padding: 10px 25px 60px;
+    padding: 10px 12px 60px;
     opacity: 1;
     height: 50px;
   }
@@ -96,7 +101,7 @@
 
 @media (max-width: 328px) {
   .navbar {
-    padding: 10px 10px 68px;
+    padding: 10px 12px 68px;
   }
   .logo {
     width: 150px;

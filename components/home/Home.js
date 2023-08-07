@@ -61,32 +61,31 @@ const Home = () => {
           className={styles['content-container']}
           style={{ maxWidth: '90%' }}
         >
-          Karana adalah sebuah perusahaan dibidang Arstitektur, Konstruksi
-          Bangunan dan Desain Interior.
-          <br />
-          Maksud pendiriannya adalah untuk memberikan jasa-jasa pekerjaan
-          dibidang Rancang Bangun Konstruksi serta interior yang diperuntukan
-          untuk menunjang pembangunan Rumah tinggal, Fasilitas Komersial, dan
-          Perkantoran, yang meliputi konsultan bangunan, bangunan interior,
-          mechanical electrical, dan eksterior bangunan.
+          Karana Bureau is an architectural, building construction, and interior
+          Design Studio. The establishment's goals is to offer work services in
+          the fields of construction and building design as well as the interior
+          that is designated to support the construction of homes, businesses,
+          and offices. These services include building consultants and interior
+          and exterior buildings as well as mechanical, electrical, and
+          electronic systems."
         </div>
         <HomeContent type="right" data={data[1]} />
         <div className={styles['content-container']}>
           <div className={styles['content-1']}>
-            Dalam berkehidupan manusia,
-            <br /> bahagia merupakan hal yang dituju oleh setiap individu.
+            People in their daily lives wish to achieve happiness that will be
+            an ideal for everyone.
           </div>
           <div className={styles['content-2']}>
-            They hustlin, bustlin and fighting their life
-            <br /> to achieve that ‘Happines’.
+            The presence of Karana will be helpful to those who seek happiness
+            in all directions and in every corner. It is also important to
+            provide them with a safe space, good function and comfort through
+            spatial design solutions.
           </div>
         </div>
         <HomeContent type="left" data={data[2]} />
         <div className={styles['content-container']}>
           <div className={styles['content-2']}>
-            Karana will help them who seek there will be
-            <br /> happiness in every corner and aspect within their <br />
-            safe place by giving a spatial solution for them.
+            Kebahagiaan di Setiap Sudut Ruang
           </div>
         </div>
         <HomeContent type="right" data={data[3]} />

@@ -68,7 +68,11 @@ const ProjectQuickView = ({ data, isOpen, closeModal }) => {
                     src={image}
                     width={940}
                     height={626}
-                    className={styles['image']}
+                    className={`${styles['image']} ${
+                      image.includes('w_2880,h_1756')
+                        ? styles['image-horizontal']
+                        : ''
+                    }`}
                     alt="3d Model"
                     objectFit="cover"
                     objectPosition="center"

@@ -50,7 +50,7 @@
 .watermark {
   position: absolute;
   bottom: 50px;
-  left: 130px;
+  left: 125px;
   display: flex;
   height: 19px;
 }
@@ -67,9 +67,9 @@
   .container {
     padding: 55px 55px;
     font-size: 14px;
-  }
+  }   
   .watermark {
-    left: 55px;
+    left: 50px;
   }
 }
 
@@ -82,7 +82,7 @@
     font-size: 12px;
   }
   .watermark {
-    left: 28px;
+    left: 23px;
   }
 }
 

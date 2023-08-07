@@ -25,7 +25,7 @@
   width: 100%;
 }
 .image {
-  width: 33.33%;
+  width: calc(33.33% - 6.66px);
   height: auto;
   object-fit: cover;
   aspect-ratio: 1 /1;

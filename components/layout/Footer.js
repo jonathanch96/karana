@@ -19,17 +19,16 @@ const Footer = () => {
         <Link href={contact.dassein} target="_blank">
           <Image
             style={{ marginRight: '15px' }}
-            src="https://res.cloudinary.com/dsqneisaz/image/upload/f_auto/v1691165246/Icon/11._Design_by_Dassein_t33qfl.svg"
-            width={141}
-            height={15}
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/w_145,h_18/v1691388627/Icon/dassein_sx0inn.svg"
+            width={145}
+            height={18}
             alt="dassein"
           />
         </Link>
-
         <Link href={contact.xerv} target="_blank">
           <Image
-            src="https://res.cloudinary.com/dsqneisaz/image/upload/v1691165245/Icon/12._Powered_by_Xerv_ezriia.svg"
-            width={136}
+            src="https://res.cloudinary.com/dsqneisaz/image/upload/w_135,h_18/v1691388627/Icon/xerv_oybmu1.svg"
+            width={135}
             height={18}
             alt="xerv"
           />

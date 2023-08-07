@@ -17,6 +17,9 @@
   .container {
     flex-wrap: wrap;
     gap: 20px;
-    padding: 50px 12px 64px;
+    padding: 24px 12px 64px;
+  }
+  .title {
+    font-size: 28px;
   }
 }

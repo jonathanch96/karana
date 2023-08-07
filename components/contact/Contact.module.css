@@ -44,4 +44,7 @@
   }
 }
 @media (max-width: 576px) {
+  .container {
+    padding: 12px 0px 64px;
+  }
 }
