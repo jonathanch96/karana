@@ -16,16 +16,16 @@ const Services = () => {
           <div className={styles['content-container']}>
             <div className={styles['title']}>Interior Design</div>
             <div className={styles['description']}>
-              Menyediakan layanan Interior yang komprehensif sesuai dengan
-              keinginan, bahan dan kualitas terbaik.
+              Menyediakan pelayanan Jasa Desain Interior yang komprehensif
+              sesuai dengan keinginan, bahan, dan kualitas terbaik.
             </div>
           </div>
           <div className={styles['content-container']}>
             <div className={styles['title']}>Construction Building</div>
             <div className={styles['description']}>
-              Menyediakan layanan konstruksi dan semua elemen bangunan yang
-              melibatkan penanganan implementasi sesuai dengan desain secara
-              keseluruhan.
+              Menyediakan pelayanan jasa konstruksi dan semua elemen bangunan
+              yang melibatkan penanganan implementasi sesuai dengan desain
+              secara keseluruhan.
             </div>
           </div>
           <div className={styles['content-container']}>
