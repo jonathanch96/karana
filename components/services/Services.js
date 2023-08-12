@@ -23,7 +23,7 @@ const Services = () => {
           <div className={styles['content-container']}>
             <div className={styles['title']}>Construction Building</div>
             <div className={styles['description']}>
-              Menyediakan pelayanan jasa konstruksi dan semua elemen bangunan
+              Menyediakan pelayanan Jasa Konstruksi dan semua elemen bangunan
               yang melibatkan penanganan implementasi sesuai dengan desain
               secara keseluruhan.
             </div>
@@ -31,7 +31,7 @@ const Services = () => {
           <div className={styles['content-container']}>
             <div className={styles['title']}>Comprehensive Design</div>
             <div className={styles['description']}>
-              Menyediakan pelayanan jasa perancangan desain yang unik dan
+              Menyediakan pelayanan Jasa Perancangan Desain yang unik dan
               komunikatif sehingga memberikan kesan dan karakter tersendiri
               kepada klien.
             </div>
